@@ -1,0 +1,363 @@
+====================================================================================================
+PNCP MONITOR - RELATÓRIO DE EDITAIS ENCONTRADOS (BUSCA VETORIAL AI)
+====================================================================================================
+
+
+================================================================================
+EXECUÇÃO EM: 10/07/2026 às 14:57:30
+Encontrados 17 novos editais relevantes usando IA.
+================================================================================
+
+--------------------------------------------------------------------------------
+Oportunidade #1: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 67.4%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE UNIAO DA VITORIA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 75967760000171-1-000059/2025
+Valor Estimado Total: R$ 340.858,38
+Data de Abertura: 31/07/2026 às 12:00
+Link no PNCP: https://pncp.gov.br/app/editais/75967760000171/2025/59
+
+Objeto da Compra:
+CREDENCIAMENTO de Clinicas Veterinárias para atendimento de animais em situação de rua ou para atendimento á cães e gatos para população de baixa renda, do território urbano do município de União da Vitória, englobando triagem, exames, tratamento clínica e cirúrgico de baixa é média complexidade baseado nos valores médios praticados e analises comparativas em pesquisas regionais;  para atender, conforme a necessidade da Secretaria Municipal de Meio Ambiente (Defesa Animal),
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO de Clinicas Veterinárias para atendimento de animais em situação de rua ou para atendimento á cães e gato... | Qtd: 1.0 Unidade | Total: R$ 340.858,38
+
+
+--------------------------------------------------------------------------------
+Oportunidade #2: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 62.7%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE ARAGUARI
+UF: DF | Município: Não informado
+Modalidade: Concorrência - Eletrônica
+Número de Controle PNCP: 16829640000149-1-000102/2025
+Valor Estimado Total: R$ 1.120.000,00
+Data de Abertura: 14/07/2026 às 09:00
+Link no PNCP: https://pncp.gov.br/app/editais/16829640000149/2025/102
+
+Objeto da Compra:
+CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE PROJETO DE TRABALHO SOCIAL – PTS, COM EXPERIÊNCIA COMPROVADA E CAPACIDADE TÉCNICA NO DESENVOLVIMENTO DE PROJETOS SOCIAIS NO ÂMBITO DE OBRAS DE INFRAESTRUTURA E MODERNIZAÇÃO DA CIDADE DE ARAGUARI-MG, POR INTERMÉDIO DA IMPLANTAÇÃO DO PARQUE LINEAR CÓRREGO BREJO ALEGRE, LOCALIZADO NO TRECHO COMPREENDIDO ENTRE A AVENIDA MINAS GERAIS E A AVENIDA TEODORETO VELOSO DE CARVALHO.
+
+SERÁ TAMBÉM UTILIZADA A SEGUINTE DOTAÇÃO ORÇAMENTÁRIAS:
+
+FICHA 404 - FONTE 1.500 - 02.09.00.17.512.0014.1008.3.3.90.39.00
+
+Itens Detalhados do Edital:
+#1: CONTRATAÇÃO DE EMPRESA
+ESPECIALIZADA PARA EXECUÇÃO DE PROJETO DE TRABALHO SOCIAL – PTS, COM EXPERIÊNCIA COMPROVADA E CA... | Qtd: 1.0 SV | Total: R$ 1.120.000,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #3: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 61.1%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE CANITAR
+UF: DF | Município: Não informado
+Modalidade: Dispensa
+Número de Controle PNCP: 57264517000105-1-000053/2025
+Valor Estimado Total: R$ 45.866,67
+Data de Abertura: 08/08/2026 às 16:00
+Link no PNCP: https://pncp.gov.br/app/editais/57264517000105/2025/53
+
+Objeto da Compra:
+CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS DE ELABORACAO DO PLANO MUNICIPAL DE GESTAO INTEGRADA DE RESIDUOS SOLIDOS (PMGIRS), CONFORME A LEI NO 12.305/2010,  PLANO MUNICIPAL DE MITIGACAO E ADAPTACAO AS MUDANCAS CLIMATICAS, BEM COMO DO PLANO DE GERENCIAMENTO DE RESIDUOS DA CONSTRUCAO CIVIL (PGRCC), INCLUINDO A IMPLANTACAO DOS SISTEMAS DE COLETA, TRIAGEM, PROCESSAMENTO/RECICLAGEM E DESTINACAO FINAL DOS RESIDUOS SOLIDOS DA CONSTRUCAO CIVIL, PODAS DE ARVORES/MASSA VERDE E RESIDUOS VOLUMOSOS, CONFORME ESTABELECIDO NA RESOLUCAO CONAMA NO 307/2002 E SUAS ALTERACOES
+
+Itens Detalhados do Edital:
+#1: CONTRATACAO DE EMPRESA ESPECIALIZADA... | Qtd: 1.0 UN | Total: R$ 45.866,67
+
+
+--------------------------------------------------------------------------------
+Oportunidade #4: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 60.5%
+--------------------------------------------------------------------------------
+Órgão: SECRETARIA DE ESTADO DA ADMINISTRACAO
+UF: DF | Município: Não informado
+Modalidade: Pregão - Eletrônico
+Número de Controle PNCP: 08761140000194-1-000134/2025
+Valor Estimado Total: R$ 17.248.020,09
+Data de Abertura: 21/07/2026 às 09:00
+Link no PNCP: https://pncp.gov.br/app/editais/08761140000194/2025/134
+
+Objeto da Compra:
+REGISTRO DE PREÇOS PARA AQUISIÇÃO DE MONITORES MULTIPARAMÉTRICOS
+
+Itens Detalhados do Edital:
+#1: MONITOR Multiparamétrico para Ambiente de enfermaria Adulto, pediátrico e neonatal.... | Qtd: 357.0 Un | Total: R$ 6.775.860,00
+#2: MONITOR Multiparamétrico para Ambiente de enfermaria Adulto, pediátrico e neonatal.... | Qtd: 4.0 Un | Total: R$ 75.920,00
+#3: MONITOR Multiparamétrico para transporte Adulto, pediátrico e neonatal.... | Qtd: 73.0 Un | Total: R$ 1.109.993,98
+#4: MONITOR Multiparamétrico para transporte Adulto, pediátrico e neonatal.... | Qtd: 5.0 Un | Total: R$ 76.026,99
+#5: MONITOR Multiparamétrico para UTI, adulto, pediátrico e neonatal.... | Qtd: 436.0 Un | Total: R$ 9.147.279,13
+#6: MONITOR Multiparamétrico para UTI, adulto, pediátrico e neonatal.... | Qtd: 3.0 Un | Total: R$ 62.939,99
+
+
+--------------------------------------------------------------------------------
+Oportunidade #5: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 59.2%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE UNIAO DA VITORIA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 75967760000171-1-000059/2025
+Valor Estimado Total: R$ 340.858,38
+Data de Abertura: 31/07/2026 às 12:00
+Link no PNCP: https://pncp.gov.br/app/editais/75967760000171/2025/59
+
+Objeto da Compra:
+CREDENCIAMENTO de Clinicas Veterinárias para atendimento de animais em situação de rua ou para atendimento á cães e gatos para população de baixa renda, do território urbano do município de União da Vitória, englobando triagem, exames, tratamento clínica e cirúrgico de baixa é média complexidade baseado nos valores médios praticados e analises comparativas em pesquisas regionais;  para atender, conforme a necessidade da Secretaria Municipal de Meio Ambiente (Defesa Animal),
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO de Clinicas Veterinárias para atendimento de animais em situação de rua ou para atendimento á cães e gato... | Qtd: 1.0 Unidade | Total: R$ 340.858,38
+
+
+--------------------------------------------------------------------------------
+Oportunidade #6: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 59.2%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE TRES RANCHOS
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 01304286000161-1-000123/2025
+Valor Estimado Total: R$ 66.894,74
+Data de Abertura: 23/07/2026 às 08:00
+Link no PNCP: https://pncp.gov.br/app/editais/01304286000161/2025/123
+
+Objeto da Compra:
+CREDENCIAMENTO DE PADARIA PARA FORNECIMENTO DE PRODUTOS DE PANIFICAÇÃO
+
+Itens Detalhados do Edital:
+#1: Pão Francês 50 gr Pão Base: De Farinha De Trigo Refinada, Tipo: francês... | Qtd: 17500.0 UN | Total: R$ 17.792,25
+#2: Pão de batata c/ presunto e mussarela anduíche Tipo: sanduiche natural,Recheio: Presunto E Queijo Mussarela Em Fatias... | Qtd: 1400.0 unid | Total: R$ 9.608,62
+#3: Bolo Alimentício Sabor: Cenoura, Tipo: Com Cobertura De Chocolate, Ingredientes: Farinha De Trigo, Fermento Químico, Açú... | Qtd: 70.0 unid | Total: R$ 2.962,17
+#4: Bolo Alimentício Sabor: Trigo , Tipo: Sem Recheio , 600gr... | Qtd: 70.0 unid | Total: R$ 1.363,83
+#5: Quitandas diversas Pão De Queijo Basa Da Massa: Polvilho Doce Ou Azedo E Queijo , Ingredientes Adicionais: Original , Fo... | Qtd: 350.0 KG | Total: R$ 16.215,50
+#6: Cento de salgado frito/assado Salgados Diversos Tipo: diversos Apresentação: Frito, assado Aplicação: Alimentação, Sabor... | Qtd: 70.0 unid | Total: R$ 10.694,37
+#7: Pão de batata c/ presunto e mussarelaSanduíche Tipo: Pão Francês , Tipo Recheio: Presunto E Queijo Mussarela Em Fatias... | Qtd: 350.0 UN | Total: R$ 2.367,16
+#8: misto quente (pão, ovo, presunto e mussarela) Salgados Diversos Tipo: Bauru, Características Adicionais: Pronto Para Con... | Qtd: 175.0 UN | Total: R$ 1.965,83
+#9: Bolo Alimentício Sabor: Trigo , Tipo: Sem Recheio, sabores variados, 600gr... | Qtd: 35.0 UN | Total: R$ 681,92
+#10: Quitandas diversas Pão De Queijo Basa Da Massa: Polvilho Doce Ou Azedo E Queijo , Ingredientes Adicionais: Original , Fo... | Qtd: 70.0 KG | Total: R$ 3.243,10
+
+
+--------------------------------------------------------------------------------
+Oportunidade #7: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 59.1%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VITORIA DA CONQUISTA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 14239578000100-1-000004/2026
+Valor Estimado Total: R$ 1.500.000,00
+Data de Abertura: 04/08/2026 às 11:00
+Link no PNCP: https://pncp.gov.br/app/editais/14239578000100/2026/4
+
+Objeto da Compra:
+CREDENCIAMENTO DE FARMÁCIA, DROGARIA OU SUPERMERCADO
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO DE FÁRMACIA E SUPERMERCADO... | Qtd: 1.0 unidade | Total: R$ 1.500.000,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #8: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 58.6%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VILA BOA
+UF: DF | Município: Não informado
+Modalidade: Pregão - Eletrônico
+Número de Controle PNCP: 37388378000114-1-000209/2024
+Valor Estimado Total: R$ 1.233.081,00
+Data de Abertura: 08/07/2027 às 08:00
+Link no PNCP: https://pncp.gov.br/app/editais/37388378000114/2024/209
+
+Objeto da Compra:
+procedimento licitatorio para adesão de registro de preço de forenecimento de combnustivel
+
+Itens Detalhados do Edital:
+#1: etanol... | Qtd: 500.0 l  | Total: R$ 2.085,00
+#2: Gasolina... | Qtd: 60000.0 li | Total: R$ 355.800,00
+#3: Diesel Comum... | Qtd: 50000.0 li | Total: R$ 308.000,00
+#4: Diesel S-10... | Qtd: 90000.0 L  | Total: R$ 567.000,00
+#5: Arla 32... | Qtd: 50.0 L  | Total: R$ 196,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #9: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 58.3%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VILA BOA
+UF: DF | Município: Não informado
+Modalidade: Pregão - Eletrônico
+Número de Controle PNCP: 37388378000114-1-000209/2024
+Valor Estimado Total: R$ 1.233.081,00
+Data de Abertura: 08/07/2027 às 08:00
+Link no PNCP: https://pncp.gov.br/app/editais/37388378000114/2024/209
+
+Objeto da Compra:
+procedimento licitatorio para adesão de registro de preço de forenecimento de combnustivel
+
+Itens Detalhados do Edital:
+#1: etanol... | Qtd: 500.0 l  | Total: R$ 2.085,00
+#2: Gasolina... | Qtd: 60000.0 li | Total: R$ 355.800,00
+#3: Diesel Comum... | Qtd: 50000.0 li | Total: R$ 308.000,00
+#4: Diesel S-10... | Qtd: 90000.0 L  | Total: R$ 567.000,00
+#5: Arla 32... | Qtd: 50.0 L  | Total: R$ 196,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #10: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 57.3%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VITORIA DA CONQUISTA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 14239578000100-1-000003/2026
+Valor Estimado Total: R$ 1,00
+Data de Abertura: 04/08/2026 às 02:59
+Link no PNCP: https://pncp.gov.br/app/editais/14239578000100/2026/3
+
+Objeto da Compra:
+CREDENCIAMENTO DE INSTITUIÇÕES FINANCEIRAS
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO INSTITUIÇÃO FINANCEIRA... | Qtd: 1.0 unidade | Total: R$ 1,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #11: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 56.3%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VITORIA DA CONQUISTA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 14239578000100-1-000003/2026
+Valor Estimado Total: R$ 1,00
+Data de Abertura: 04/08/2026 às 02:59
+Link no PNCP: https://pncp.gov.br/app/editais/14239578000100/2026/3
+
+Objeto da Compra:
+CREDENCIAMENTO DE INSTITUIÇÕES FINANCEIRAS
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO INSTITUIÇÃO FINANCEIRA... | Qtd: 1.0 unidade | Total: R$ 1,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #12: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 55.9%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE ARAGUARI
+UF: DF | Município: Não informado
+Modalidade: Concorrência - Eletrônica
+Número de Controle PNCP: 16829640000149-1-000102/2025
+Valor Estimado Total: R$ 1.120.000,00
+Data de Abertura: 14/07/2026 às 09:00
+Link no PNCP: https://pncp.gov.br/app/editais/16829640000149/2025/102
+
+Objeto da Compra:
+CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE PROJETO DE TRABALHO SOCIAL – PTS, COM EXPERIÊNCIA COMPROVADA E CAPACIDADE TÉCNICA NO DESENVOLVIMENTO DE PROJETOS SOCIAIS NO ÂMBITO DE OBRAS DE INFRAESTRUTURA E MODERNIZAÇÃO DA CIDADE DE ARAGUARI-MG, POR INTERMÉDIO DA IMPLANTAÇÃO DO PARQUE LINEAR CÓRREGO BREJO ALEGRE, LOCALIZADO NO TRECHO COMPREENDIDO ENTRE A AVENIDA MINAS GERAIS E A AVENIDA TEODORETO VELOSO DE CARVALHO.
+
+SERÁ TAMBÉM UTILIZADA A SEGUINTE DOTAÇÃO ORÇAMENTÁRIAS:
+
+FICHA 404 - FONTE 1.500 - 02.09.00.17.512.0014.1008.3.3.90.39.00
+
+Itens Detalhados do Edital:
+#1: CONTRATAÇÃO DE EMPRESA
+ESPECIALIZADA PARA EXECUÇÃO DE PROJETO DE TRABALHO SOCIAL – PTS, COM EXPERIÊNCIA COMPROVADA E CA... | Qtd: 1.0 SV | Total: R$ 1.120.000,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #13: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 54.8%
+--------------------------------------------------------------------------------
+Órgão: SECRETARIA DE ESTADO DA ADMINISTRACAO
+UF: DF | Município: Não informado
+Modalidade: Pregão - Eletrônico
+Número de Controle PNCP: 08761140000194-1-000134/2025
+Valor Estimado Total: R$ 17.248.020,09
+Data de Abertura: 21/07/2026 às 09:00
+Link no PNCP: https://pncp.gov.br/app/editais/08761140000194/2025/134
+
+Objeto da Compra:
+REGISTRO DE PREÇOS PARA AQUISIÇÃO DE MONITORES MULTIPARAMÉTRICOS
+
+Itens Detalhados do Edital:
+#1: MONITOR Multiparamétrico para Ambiente de enfermaria Adulto, pediátrico e neonatal.... | Qtd: 357.0 Un | Total: R$ 6.775.860,00
+#2: MONITOR Multiparamétrico para Ambiente de enfermaria Adulto, pediátrico e neonatal.... | Qtd: 4.0 Un | Total: R$ 75.920,00
+#3: MONITOR Multiparamétrico para transporte Adulto, pediátrico e neonatal.... | Qtd: 73.0 Un | Total: R$ 1.109.993,98
+#4: MONITOR Multiparamétrico para transporte Adulto, pediátrico e neonatal.... | Qtd: 5.0 Un | Total: R$ 76.026,99
+#5: MONITOR Multiparamétrico para UTI, adulto, pediátrico e neonatal.... | Qtd: 436.0 Un | Total: R$ 9.147.279,13
+#6: MONITOR Multiparamétrico para UTI, adulto, pediátrico e neonatal.... | Qtd: 3.0 Un | Total: R$ 62.939,99
+
+
+--------------------------------------------------------------------------------
+Oportunidade #14: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 54.1%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE CANITAR
+UF: DF | Município: Não informado
+Modalidade: Dispensa
+Número de Controle PNCP: 57264517000105-1-000053/2025
+Valor Estimado Total: R$ 45.866,67
+Data de Abertura: 08/08/2026 às 16:00
+Link no PNCP: https://pncp.gov.br/app/editais/57264517000105/2025/53
+
+Objeto da Compra:
+CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS DE ELABORACAO DO PLANO MUNICIPAL DE GESTAO INTEGRADA DE RESIDUOS SOLIDOS (PMGIRS), CONFORME A LEI NO 12.305/2010,  PLANO MUNICIPAL DE MITIGACAO E ADAPTACAO AS MUDANCAS CLIMATICAS, BEM COMO DO PLANO DE GERENCIAMENTO DE RESIDUOS DA CONSTRUCAO CIVIL (PGRCC), INCLUINDO A IMPLANTACAO DOS SISTEMAS DE COLETA, TRIAGEM, PROCESSAMENTO/RECICLAGEM E DESTINACAO FINAL DOS RESIDUOS SOLIDOS DA CONSTRUCAO CIVIL, PODAS DE ARVORES/MASSA VERDE E RESIDUOS VOLUMOSOS, CONFORME ESTABELECIDO NA RESOLUCAO CONAMA NO 307/2002 E SUAS ALTERACOES
+
+Itens Detalhados do Edital:
+#1: CONTRATACAO DE EMPRESA ESPECIALIZADA... | Qtd: 1.0 UN | Total: R$ 45.866,67
+
+
+--------------------------------------------------------------------------------
+Oportunidade #15: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 53.7%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE TRES RANCHOS
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 01304286000161-1-000123/2025
+Valor Estimado Total: R$ 66.894,74
+Data de Abertura: 23/07/2026 às 08:00
+Link no PNCP: https://pncp.gov.br/app/editais/01304286000161/2025/123
+
+Objeto da Compra:
+CREDENCIAMENTO DE PADARIA PARA FORNECIMENTO DE PRODUTOS DE PANIFICAÇÃO
+
+Itens Detalhados do Edital:
+#1: Pão Francês 50 gr Pão Base: De Farinha De Trigo Refinada, Tipo: francês... | Qtd: 17500.0 UN | Total: R$ 17.792,25
+#2: Pão de batata c/ presunto e mussarela anduíche Tipo: sanduiche natural,Recheio: Presunto E Queijo Mussarela Em Fatias... | Qtd: 1400.0 unid | Total: R$ 9.608,62
+#3: Bolo Alimentício Sabor: Cenoura, Tipo: Com Cobertura De Chocolate, Ingredientes: Farinha De Trigo, Fermento Químico, Açú... | Qtd: 70.0 unid | Total: R$ 2.962,17
+#4: Bolo Alimentício Sabor: Trigo , Tipo: Sem Recheio , 600gr... | Qtd: 70.0 unid | Total: R$ 1.363,83
+#5: Quitandas diversas Pão De Queijo Basa Da Massa: Polvilho Doce Ou Azedo E Queijo , Ingredientes Adicionais: Original , Fo... | Qtd: 350.0 KG | Total: R$ 16.215,50
+#6: Cento de salgado frito/assado Salgados Diversos Tipo: diversos Apresentação: Frito, assado Aplicação: Alimentação, Sabor... | Qtd: 70.0 unid | Total: R$ 10.694,37
+#7: Pão de batata c/ presunto e mussarelaSanduíche Tipo: Pão Francês , Tipo Recheio: Presunto E Queijo Mussarela Em Fatias... | Qtd: 350.0 UN | Total: R$ 2.367,16
+#8: misto quente (pão, ovo, presunto e mussarela) Salgados Diversos Tipo: Bauru, Características Adicionais: Pronto Para Con... | Qtd: 175.0 UN | Total: R$ 1.965,83
+#9: Bolo Alimentício Sabor: Trigo , Tipo: Sem Recheio, sabores variados, 600gr... | Qtd: 35.0 UN | Total: R$ 681,92
+#10: Quitandas diversas Pão De Queijo Basa Da Massa: Polvilho Doce Ou Azedo E Queijo , Ingredientes Adicionais: Original , Fo... | Qtd: 70.0 KG | Total: R$ 3.243,10
+
+
+--------------------------------------------------------------------------------
+Oportunidade #16: Regra [Teste Varonis MDDR UBA] | Score de Similaridade: 52.3%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE CASTELO
+UF: DF | Município: Não informado
+Modalidade: Pregão - Eletrônico
+Número de Controle PNCP: 27165638000139-1-000153/2024
+Valor Estimado Total: R$ 11.750,00
+Data de Abertura: 24/06/2027 às 14:00
+Link no PNCP: https://pncp.gov.br/app/editais/27165638000139/2024/153
+
+Objeto da Compra:
+ATA DE REGISTRO DE PREÇOS.Futura aquisição através de ata de registro de preços de água mineral em copo de 200 ml e em garrafas de 500 ml.
+
+Itens Detalhados do Edital:
+#1: AGUA MINERAL SEM GAS 500 ML... | Qtd: 5000.0 UNIDADE. | Total: R$ 6.750,00
+#2: AGUA MINERAL SEM GAS (COPO 200ML)... | Qtd: 5000.0 Unidade | Total: R$ 5.000,00
+
+
+--------------------------------------------------------------------------------
+Oportunidade #17: Regra [Seguranca da Informacao e TI] | Score de Similaridade: 52.3%
+--------------------------------------------------------------------------------
+Órgão: MUNICIPIO DE VITORIA DA CONQUISTA
+UF: DF | Município: Não informado
+Modalidade: Credenciamento
+Número de Controle PNCP: 14239578000100-1-000004/2026
+Valor Estimado Total: R$ 1.500.000,00
+Data de Abertura: 04/08/2026 às 11:00
+Link no PNCP: https://pncp.gov.br/app/editais/14239578000100/2026/4
+
+Objeto da Compra:
+CREDENCIAMENTO DE FARMÁCIA, DROGARIA OU SUPERMERCADO
+
+Itens Detalhados do Edital:
+#1: CREDENCIAMENTO DE FÁRMACIA E SUPERMERCADO... | Qtd: 1.0 unidade | Total: R$ 1.500.000,00
+
+
