@@ -2,790 +2,578 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>PNCP - Nova Busca Bahia (11/08/2026)</title>
+<title>PNCP - Editais Abertos na Bahia</title>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    
-    @page {
-        size: A4;
-        margin: 12mm 12mm 15mm 12mm;
-    }
-    
-    body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        color: #0f172a;
-        background-color: #ffffff;
-        margin: 0;
-        padding: 0;
-        font-size: 12px;
-        line-height: 1.45;
-    }
-    
-    header {
-        border-bottom: 2px solid #1e40af;
-        padding-bottom: 10px;
-        margin-bottom: 14px;
-    }
-    
-    h1 {
-        color: #1e40af;
-        font-size: 20px;
-        margin: 0 0 6px 0;
-        font-weight: 700;
-    }
-    
-    .meta-bar {
-        font-size: 11px;
-        color: #475569;
-        margin-bottom: 10px;
-    }
-    
-    .meta-bar span {
-        font-weight: 600;
-        color: #0f172a;
-    }
-    
-    .summary-box {
-        background: #f0f9ff;
-        border: 1px solid #bae6fd;
-        border-radius: 6px;
-        padding: 10px 14px;
-        margin-bottom: 16px;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .stat-item {
-        text-align: center;
-    }
-    
-    .stat-val {
-        font-size: 20px;
-        font-weight: 700;
-        color: #0369a1;
-    }
-    
-    .stat-lbl {
-        font-size: 11px;
-        color: #0369a1;
-        font-weight: 500;
-    }
-    
-    h2 {
-        font-size: 14px;
-        color: #0f172a;
-        border-left: 4px solid #1e40af;
-        padding-left: 8px;
-        margin: 20px 0 10px 0;
-        font-weight: 700;
-    }
-    
-    .card {
-        background: #ffffff;
-        border: 1px solid #cbd5e1;
-        border-radius: 6px;
-        padding: 10px 12px;
-        margin-bottom: 10px;
-        page-break-inside: avoid;
-    }
-    
-    .card.pregao {
-        background: #fef2f2;
-        border-color: #fca5a5;
-    }
-    
-    .card-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 6px;
-    }
-    
-    .card-title {
-        font-weight: 700;
-        font-size: 12px;
-        color: #1e3a8a;
-        margin: 0;
-    }
-    
-    .badge {
-        display: inline-block;
-        padding: 2px 8px;
-        border-radius: 4px;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    
-    .badge-pregao {
-        background: #ef4444;
-        color: #ffffff;
-    }
-    
-    .badge-outros {
-        background: #e2e8f0;
-        color: #334155;
-    }
-    
-    .grid-info {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 4px 12px;
-        font-size: 11px;
-        margin-bottom: 6px;
-    }
-    
-    .info-row {
-        margin-bottom: 2px;
-    }
-    
-    .info-label {
-        font-weight: 600;
-        color: #475569;
-    }
-    
-    .enc-date {
-        color: #dc2626;
-        font-weight: 700;
-    }
-    
-    .objeto-text {
-        font-size: 11px;
-        color: #334155;
-        background: rgba(255, 255, 255, 0.7);
-        border: 1px solid #e2e8f0;
-        padding: 6px 8px;
-        border-radius: 4px;
-        margin-top: 4px;
-    }
-    
-    .links-bar {
-        margin-top: 6px;
-        font-size: 11px;
-    }
-    
-    .links-bar a {
-        color: #2563eb;
-        text-decoration: none;
-        font-weight: 500;
-        margin-right: 12px;
-    }
+    @page { size: A4; margin: 12mm; }
+    body { font-family: 'Inter', -apple-system, sans-serif; color: #0f172a; background: #ffffff; font-size: 12px; line-height: 1.45; margin: 0; padding: 0; }
+    header { border-bottom: 2px solid #1e40af; padding-bottom: 10px; margin-bottom: 14px; }
+    h1 { color: #1e40af; font-size: 20px; margin: 0 0 6px 0; font-weight: 700; }
+    .meta-bar { font-size: 11px; color: #475569; margin-bottom: 10px; }
+    .summary-box { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 6px; padding: 10px 14px; margin-bottom: 16px; display: flex; justify-content: space-around; }
+    .stat-item { text-align: center; }
+    .stat-val { font-size: 20px; font-weight: 700; color: #0369a1; }
+    .stat-lbl { font-size: 11px; color: #0369a1; font-weight: 500; }
+    h2 { font-size: 14px; color: #0f172a; border-left: 4px solid #1e40af; padding-left: 8px; margin: 20px 0 10px 0; font-weight: 700; }
+    .card { background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; page-break-inside: avoid; }
+    .card.pregao { background: #fef2f2; border-color: #fca5a5; }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
+    .card-title { font-weight: 700; font-size: 12px; color: #1e3a8a; margin: 0; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; text-transform: uppercase; }
+    .badge-pregao { background: #ef4444; color: #ffffff; }
+    .badge-outros { background: #e2e8f0; color: #334155; }
+    .grid-info { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; font-size: 11px; margin-bottom: 6px; }
+    .info-label { font-weight: 600; color: #475569; }
+    .enc-date { color: #dc2626; font-weight: 700; }
+    .objeto-text { font-size: 11px; color: #334155; background: rgba(255, 255, 255, 0.7); border: 1px solid #e2e8f0; padding: 6px 8px; border-radius: 4px; margin-top: 4px; }
+    .links-bar { margin-top: 6px; font-size: 11px; }
+    .links-bar a { color: #2563eb; text-decoration: none; font-weight: 500; margin-right: 12px; }
 </style>
 </head>
 <body>
-
 <header>
-    <h1>📋 PNCP - Nova Busca de Editais Abertos na Bahia (BA)</h1>
+    <h1>📋 PNCP - Busca Diária de Editais Abertos na Bahia</h1>
     <div class="meta-bar">
-        <span>Data da Busca:</span> 11/08/2026 &nbsp;|&nbsp;
-        <span>Profundidade:</span> 25 Páginas por Termo de Busca &nbsp;|&nbsp;
-        <span>Fonte:</span> Portal Nacional de Contratações Públicas
+        <b>Data da Busca Automática:</b> 12/08/2026 &nbsp;|&nbsp;
+        <b>Profundidade:</b> 25 Páginas por Termo de Busca &nbsp;|&nbsp;
+        <b>Fonte:</b> PNCP
     </div>
     <div class="summary-box">
-        <div class="stat-item">
-            <div class="stat-val">63</div>
-            <div class="stat-lbl">Total Editais em BA</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-val" style="color: #dc2626;">15</div>
-            <div class="stat-lbl" style="color: #dc2626;">Pregão Eletrônico / Presencial</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-val" style="color: #475569;">48</div>
-            <div class="stat-lbl" style="color: #475569;">Credenciamento & Dispensa</div>
-        </div>
+        <div class="stat-item"><div class="stat-val">60</div><div class="stat-lbl">Total Editais em BA</div></div>
+        <div class="stat-item"><div class="stat-val" style="color: #dc2626;">14</div><div class="stat-lbl" style="color: #dc2626;">Pregão Eletrônico</div></div>
+        <div class="stat-item"><div class="stat-val" style="color: #475569;">46</div><div class="stat-lbl" style="color: #475569;">Credenciamento & Dispensa</div></div>
     </div>
 </header>
+<h2>⚡ 1. Editais na Modalidade Pregão na Bahia (14)</h2>
 
-<h2>⚡ 1. Editais na Modalidade Pregão na Bahia (15)</h2>
-
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">1. Edital nº 035/2026 — MUNICIPIO DE CRUZ DAS ALMAS</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">1. Edital nº 8/2026 — MUNICIPIO DE IPIAU</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ipiaú - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">13/08/2026 às 09:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 42.824,31</div>
+                <div><span class="info-label">Publicação:</span> 29/07/2026 às 10:54</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para eventual fornecimento, mediante registro de preços, de acordo com a conveniência e necessidade da Administração Pública Municipal, para aquisição de MÓVEIS, EQUIPAMENTOS E MATERIAIS PERMANENTES DIVERSOS, para atender as necessidades das Secretarias e demais órgãos do Município de Ipiaú/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13701651000150/2026/78' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=98357905000082026' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Cruz das Almas - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">12/08/2026 às 09:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 256.503,30</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 24/07/2026 às 12:43</div>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">2. Edital nº 98/2026 — TRIBUNAL SUPERIOR ELEITORAL</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">13/08/2026 às 13:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 81.012,68</div>
+                <div><span class="info-label">Publicação:</span> 24/07/2026 às 04:00</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para prestação de serviços de nutrição para atender os servidores efetivos e requisitados, magistrados e estagiários do Tribunal Regional Eleitoral da Bahia (TRE-BA).</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/00509018000113/2026/1598' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=07001305000982026' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> [LICITANET] - Registro de Preços para futura e eventual aquisição de gêneros alimentícios perecíveis e não perecíveis, para atender às necessidades das Secretarias Municipais de Administração, Saúde, Educação e Assistência Social do Município de Cruz das Almas, destinados ao fornecimento de alimentação durante a execução das atividades administrativas, ações institucionais, eventos oficiais, capacitações, reuniões, campanhas, bem como aos usuários dos serviços públicos municipais, participantes de programas governamentais e demais ações desenvolvidas pelas respectivas secretarias.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14006977000120/2026/114' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitanet.com.br/sessao/195144' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">3. Edital nº 71/2026 — MUNICIPIO DE SALVADOR</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">14/08/2026 às 16:37</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.200,00</div>
+                <div><span class="info-label">Publicação:</span> 04/08/2026 às 14:56</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Kit Lanche</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13927801000300/2026/119' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92682105000712026' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">2. Edital nº 11620PE0242026/2026 — AUTARQUIA UNIVERSIDADE DO SUDOESTE</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">4. Edital nº PE 007/2026 — MUNICIPIO DE IRAQUARA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Iraquara - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">17/08/2026 às 08:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.778.004,10</div>
+                <div><span class="info-label">Publicação:</span> 10/07/2026 às 09:44</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE EQUIPAMENTOS HOSPITALARES DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DAS UNIDADES DE SAÚDE VINCULADAS À SECRETARIA MUNICIPAL DE SAÚDE DO MUNICÍPIO DE IRAQUARA/BA, CONFORME ESPECIFICAÇÕES, QUANTIDADES E CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA E DEMAIS ANEXOS DO EDITAL. TIPO: MENOR PREÇO POR LOTE.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13922596000129/2026/52' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]EuyJfkmOQLE2ZNtsfbIg3BEnb5HkJ2tne0EOHhH8RbdquX7TGz9Ynt9TLLjH_JjoHCJA8pQJ7z9RDIvYdKZLbOW7FeT5XrOC9bU_N78wBFQ=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Jequié - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">12/08/2026 às 09:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 95.578,34</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 20/07/2026 às 08:46</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Aquisição de bens comuns</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13069489000108/2026/120' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">3. Edital nº 8/2026 — MUNICIPIO DE IPIAU</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ipiaú - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">13/08/2026 às 09:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 42.824,31</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 29/07/2026 às 10:54</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para eventual fornecimento, mediante registro de preços, de acordo com a conveniência e necessidade da Administração Pública Municipal, para aquisição de MÓVEIS, EQUIPAMENTOS E MATERIAIS PERMANENTES DIVERSOS, para atender as necessidades das Secretarias e demais órgãos do Município de Ipiaú/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13701651000150/2026/78' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=98357905000082026' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">4. Edital nº 71/2026 — MUNICIPIO DE SALVADOR</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">14/08/2026 às 16:37</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.200,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 04/08/2026 às 14:56</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Kit Lanche</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13927801000300/2026/119' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://cnetmobile.estaleiro.serpro.gov.br/comprasnet-web/public/compras/acompanhamento-compra?compra=92682105000712026' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">5. Edital nº PE 007/2026 — MUNICIPIO DE IRAQUARA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Iraquara - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">17/08/2026 às 08:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.778.004,10</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/07/2026 às 09:44</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE EQUIPAMENTOS HOSPITALARES DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DAS UNIDADES DE SAÚDE VINCULADAS À SECRETARIA MUNICIPAL DE SAÚDE DO MUNICÍPIO DE IRAQUARA/BA, CONFORME ESPECIFICAÇÕES, QUANTIDADES E CONDIÇÕES ESTABELECIDAS NO TERMO DE REFERÊNCIA E DEMAIS ANEXOS DO EDITAL. TIPO: MENOR PREÇO POR LOTE.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13922596000129/2026/52' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]EuyJfkmOQLE2ZNtsfbIg3BEnb5HkJ2tne0EOHhH8RbdquX7TGz9Ynt9TLLjH_JjoHCJA8pQJ7z9RDIvYdKZLbOW7FeT5XrOC9bU_N78wBFQ=' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">6. Edital nº 014/2026 — MUNICIPIO DE CAIRU</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Cairu - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">18/08/2026 às 09:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.055.253,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 04/08/2026 às 09:01</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> [LICITANET] - Registro de preços para eventual contratação de empresa especializada para prestação de serviços de alimentação 
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">5. Edital nº 014/2026 — MUNICIPIO DE CAIRU</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Cairu - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">18/08/2026 às 09:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.055.253,00</div>
+                <div><span class="info-label">Publicação:</span> 04/08/2026 às 09:01</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> [LICITANET] - Registro de preços para eventual contratação de empresa especializada para prestação de serviços de alimentação 
 (refeições e lanches), para atender as necessidades da Prefeitura municipal de Cairu, Estado da Bahia.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14235907000144/2026/100' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitanet.com.br/sessao/196134' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14235907000144/2026/100' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://licitanet.com.br/sessao/196134' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">7. Edital nº PE. Nº 014/2026/SRP/2026 — MUNICIPIO DE NOVA ITARANA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">6. Edital nº PE. Nº 014/2026/SRP/2026 — MUNICIPIO DE NOVA ITARANA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Nova Itarana - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">19/08/2026 às 08:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 314.560,80</div>
+                <div><span class="info-label">Publicação:</span> 11/08/2026 às 09:18</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> Registro de preços destinado à futura e eventual aquisição de utensílios de cozinha, eletrodomésticos e equipamentos eletrônicos, para atendimento das necessidades da Secretaria Municipal de Educação e das unidades integrantes da Rede Municipal de Ensino de Nova Itarana/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13892187000127/2026/87' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]R9i6SZ6uKuyy/eeMLY0_UuUa4kQ/Vj/pb2Ozdn5/ar5MwrWGy647XlUJ6x8cwbB3CTB1vgxGHlKzxAPDvuLj9V/YbFN4FXg_T/R379XZ14M=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Nova Itarana - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">19/08/2026 às 08:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 314.560,80</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 11/08/2026 às 09:18</div>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">7. Edital nº 024/2026 — MUNICIPIO DE LUIS EDUARDO MAGALHAES</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Luís Eduardo Magalhães - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">20/08/2026 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 580.875,00</div>
+                <div><span class="info-label">Publicação:</span> 07/08/2026 às 13:33</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada no fornecimento, preparo, montagem e entrega de refeições prontas, em forma de kits individuais personalizados, destinados aos participantes das Olimpíadas Intercolegiais do Município de Luís Eduardo Magalhães OILEM, edição de 2026, conforme solicitação da Secretaria Municipal de Educação.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/04214419000105/2026/97' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]oYXGUOW1f3cm3zdZqxl/z6rgJ/eZrWlRszmCT_zl4RQr8017YzXxxo1nOnHR/YR8UJBkXUSpPv4PvAEu6lleW_H206vVl/NcrTWnuAqv7Qs=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> Registro de preços destinado à futura e eventual aquisição de utensílios de cozinha, eletrodomésticos e equipamentos eletrônicos, para atendimento das necessidades da Secretaria Municipal de Educação e das unidades integrantes da Rede Municipal de Ensino de Nova Itarana/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13892187000127/2026/87' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]R9i6SZ6uKuyy/eeMLY0_UuUa4kQ/Vj/pb2Ozdn5/ar5MwrWGy647XlUJ6x8cwbB3CTB1vgxGHlKzxAPDvuLj9V/YbFN4FXg_T/R379XZ14M=' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">8. Edital nº 019/2026 — FUNDO MUNICIPAL DE SAUDE DE SAO FELIX</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> São Félix - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">20/08/2026 às 12:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 157.740,97</div>
+                <div><span class="info-label">Publicação:</span> 07/08/2026 às 17:48</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Pretende-se a Futura e eventual aquisição de materiais e equipamentos de assistência médica destinado a atender as necessidades do SAMU e CEO, através do Fundo Municipal de Saúde do Município São Félix/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/08924528000169/2026/2' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]Y7nSmuJ6jTmykqhmli4JL7llASBQEQd3k2Kc/9vG230HYdiFOSHrRpJf33BEl3oPIfcoNTfGM0oQ5n7UHX9AvSCXDZw0ke/7rxaka9qTFtY=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">8. Edital nº 024/2026 — MUNICIPIO DE LUIS EDUARDO MAGALHAES</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">9. Edital nº PE-129/2026 — MUNICIPIO DE TEIXEIRA DE FREITAS</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Teixeira de Freitas - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">24/08/2026 às 08:15</span></div>
+                <div><span class="info-label">Valor Estimado:</span> Não informado / Sigiloso</div>
+                <div><span class="info-label">Publicação:</span> 10/08/2026 às 17:21</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada em fornecimento de EQUIPAMENTOS DE SONORIZAÇÃO E ILUMINAÇÃO (material de consumo) e (material permanente), a fim de atender as demandas da Secretaria Municipal de Administração e demais secretarias.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13650403000128/2026/357' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]UpXKTFHk7uFZ3dYl4Te7l8wj6t9oAjd3zPPfahz9_mODlubnKrUZ0sbDF5zgIdUXsTzUamYdT8xGmbZssec7UnqhGrbzSYuaSINWNO4DX9Y=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Luís Eduardo Magalhães - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">20/08/2026 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 580.875,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/08/2026 às 13:33</div>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">10. Edital nº 21003PE0062026/2026 — FUNDO ESTADUAL DO TRABALHO DO ESTADO DA BAHIA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 09:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 605.032,96</div>
+                <div><span class="info-label">Publicação:</span> 12/06/2026 às 11:16</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Serviços comuns e serviços comuns de engenharia</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/35582108000114/2026/27' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada no fornecimento, preparo, montagem e entrega de refeições prontas, em forma de kits individuais personalizados, destinados aos participantes das Olimpíadas Intercolegiais do Município de Luís Eduardo Magalhães OILEM, edição de 2026, conforme solicitação da Secretaria Municipal de Educação.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/04214419000105/2026/97' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]oYXGUOW1f3cm3zdZqxl/z6rgJ/eZrWlRszmCT_zl4RQr8017YzXxxo1nOnHR/YR8UJBkXUSpPv4PvAEu6lleW_H206vVl/NcrTWnuAqv7Qs=' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">11. Edital nº 006/2026 R/2026 — ESTADO DA BAHIA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 10:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 605.031,07</div>
+                <div><span class="info-label">Publicação:</span> 10/08/2026 às 18:31</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Eventos</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13937032000160/2026/2181' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098450' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">9. Edital nº 019/2026 — FUNDO MUNICIPAL DE SAUDE DE SAO FELIX</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">12. Edital nº PE052-2026/2026 — MUNICIPIO DE POJUCA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Pojuca - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 10:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.436.488,11</div>
+                <div><span class="info-label">Publicação:</span> 07/08/2026 às 18:31</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada para fornecimento parcelado de refeições e lanches para atender as demandas das diversas Secretarias do Município de Pojuca/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13806237000106/2026/170' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098363' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> São Félix - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">20/08/2026 às 12:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 157.740,97</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/08/2026 às 17:48</div>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">13. Edital nº 22009PE0062026/2026 — SECRETARIA DE CULTURA - SECULT</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">26/08/2026 às 08:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.886.990,25</div>
+                <div><span class="info-label">Publicação:</span> 10/08/2026 às 14:43</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Serviços comuns e serviços comuns de engenharia</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/00401376000108/2026/74' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Pretende-se a Futura e eventual aquisição de materiais e equipamentos de assistência médica destinado a atender as necessidades do SAMU e CEO, através do Fundo Municipal de Saúde do Município São Félix/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/08924528000169/2026/2' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]Y7nSmuJ6jTmykqhmli4JL7llASBQEQd3k2Kc/9vG230HYdiFOSHrRpJf33BEl3oPIfcoNTfGM0oQ5n7UHX9AvSCXDZw0ke/7rxaka9qTFtY=' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card pregao">
+            <div class="card-header">
+                <div class="card-title">14. Edital nº 6/2026/2026 — ESTADO DA BAHIA</div>
+                <span class="badge badge-pregao">Pregão - Eletrônico</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão Pública:</span> <span class="enc-date">26/08/2026 às 09:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.886.990,28</div>
+                <div><span class="info-label">Publicação:</span> 10/08/2026 às 18:31</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de produtora especializada para prestação de serviços de operação técnica, produção executiva de pauta, apoio à execução artística e manutenção operacional no Teatro Carlos Pitta e Centro de Convênções de Feira de Santana.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13937032000160/2026/2178' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098355' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">10. Edital nº PE-129/2026 — MUNICIPIO DE TEIXEIRA DE FREITAS</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        <h2>📜 2. Demais Editais Abertos na Bahia (46)</h2>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">1. Aviso de Contratação Direta nº 019/2026 — CONSORCIO DE DESENVOLVIMENTO SUSTENTAVEL DO TERRITORIO DO SERTAO DO SAO FRANCISCO</div>
+                <span class="badge badge-outros">Dispensa</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Juazeiro - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/08/2026 às 08:29</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 19.819,00</div>
+                <div><span class="info-label">Publicação:</span> 07/08/2026 às 12:37</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos, Coffee Break</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para o fornecimento de lanches (coffee break) e locação de cadeiras, destinados ao atendimento de eventos institucionais, reuniões, capacitações, seminários, oficinas, audiências públicas, encontros técnicos e demais atividades promovidas pelo Consórcio de Desenvolvimento Sustentável do Território do Sertão do São Francisco – CONSTESF.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/11308356000103/2026/28' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]ols_LRXPxNFlmvtpz_42o/d9/UsHHXawc_TvgEtJ_2k9HYC01GCtQ8EZ5EQpIQvnqn9xZqCtuDzSVpl9ZnNjI53yY0E2FytoqZyUN3FMWFo=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Teixeira de Freitas - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">24/08/2026 às 08:15</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> Não informado / Sigiloso</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/08/2026 às 17:21</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">2. Aviso de Contratação Direta nº PCE1915020260247/2026 — FUNDO ESTADUAL DE SAUDE DO ESTADO DA BAHIA</div>
+                <span class="badge badge-outros">Dispensa</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/08/2026 às 16:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 37.800,00</div>
+                <div><span class="info-label">Publicação:</span> 06/08/2026 às 08:57</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> FORNECIMENTO DE ALIMENTAÇÃO NO CPERED</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/05816630000152/2026/5838' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada em fornecimento de EQUIPAMENTOS DE SONORIZAÇÃO E ILUMINAÇÃO (material de consumo) e (material permanente), a fim de atender as demandas da Secretaria Municipal de Administração e demais secretarias.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13650403000128/2026/357' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]UpXKTFHk7uFZ3dYl4Te7l8wj6t9oAjd3zPPfahz9_mODlubnKrUZ0sbDF5zgIdUXsTzUamYdT8xGmbZssec7UnqhGrbzSYuaSINWNO4DX9Y=' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">3. Edital de Chamamento Público nº CR005/2025/2025 — MUNICIPIO DE ITABELA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Itabela - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/08/2026 às 12:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 243.158,00</div>
+                <div><span class="info-label">Publicação:</span> 14/08/2025 às 11:45</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para prestação de serviços de Marmitex, buffet Tipo Almoço e jantar, refeição self service para atender as necessidades das diversas Secretarias da prefeitura municipal de Itabela/BA</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/16234429000183/2025/52' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/142434?localConsulta=2&cod=1686' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">11. Edital nº 21003PE0062026/2026 — FUNDO ESTADUAL DO TRABALHO DO ESTADO DA BAHIA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">4. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE RIACHO DE SANTANA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Riacho de Santana - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/08/2026 às 08:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.274.509,00</div>
+                <div><span class="info-label">Publicação:</span> 04/08/2026 às 17:24</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> EDITAL DA CHAMADA PÚBLICA N° 002/2026-CP - PROCESSO ADMINISTRATIVO Nº 051/2026 - PARA AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS DA AGRICULTURA FAMILIAR E/OU EMPREENDEDOR FAMILIAR RURAL PARA ALIMENTAÇÃO ESCOLAR NO MUNICÍPIO DE RIACHO DE SANTANA/BA, PARA ATENDER AO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR – PNAE.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14105191000160/2026/60' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 09:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 605.032,96</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 12/06/2026 às 11:16</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">5. Edital de Chamamento Público nº CHAMADA PUBLICA AGRI 002/206 - R/2026 — MUNICIPIO DE IBIRAPITANGA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ibirapitanga - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/08/2026 às 10:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.327.022,28</div>
+                <div><span class="info-label">Publicação:</span> 07/07/2026 às 14:33</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> REPUBLICADO - CREDENCIAMENTO DESTINADO AO ATENDIMENTO DO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR, PARA AQUISIÇÃO DE GÊNEROS ALIMENTICIOS DA AGRICULTURA FAMILIAR E DO EMPREENDEDOR FAMILIAR RURAL PARA O DESTINADO A ALIMENTAÇÃO ESCOLAR DA REDE DE ENSINOPNAE DO MUNICIPIO DE IBIRAPITANGA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13846753000164/2026/73' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='#' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Serviços comuns e serviços comuns de engenharia</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/35582108000114/2026/27' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">6. Edital de Chamamento Público nº 033/2025/2025 — CAMARA DE VEREADORES DE IBIRAPITANGA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ibirapitanga - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/09/2026 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 45.593,00</div>
+                <div><span class="info-label">Publicação:</span> 11/09/2025 às 17:03</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas fisicas e juridicas para prestacao de servicos de buffet para atender as necessidades da Camara Municipal de Ibirapitanga/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/16413551000117/2025/35' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">12. Edital nº 006/2026 R/2026 — ESTADO DA BAHIA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">7. Edital de Chamamento Público nº 027/2025/2025 — MUNICIPIO DE BRUMADO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Brumado - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">24/09/2026 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 996.813,00</div>
+                <div><span class="info-label">Publicação:</span> 26/09/2025 às 16:23</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos, Coffee Break, Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> credenciamento, objetivando a contratação, via chamada pública, de pessoas físicas ou jurídicas aptas à prestação de Serviços de Buffet (Coffee Break, Coquetel e Lanches), para eventos públicos e institucionais promovidos pelas diversas Secretarias Municipais de BRUMADO/BA, conforme as condições, especificações e exigências estabelecidas neste instrumento e em seus anexos.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14105704000133/2025/55' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 10:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 605.031,07</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/08/2026 às 18:31</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">8. Edital nº 004C/2025/2025 — MUNICIPIO DE CABACEIRAS DO PARAGUACU</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Cabaceiras do Paraguaçu - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">01/10/2026 às 07:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.783.055,63</div>
+                <div><span class="info-label">Publicação:</span> 01/10/2025 às 13:02</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Buffet, Buffet para eventos, Coffee Break</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoa física ou jurídica para fornecimento de refeições Buffet, Coffee Break, Lanches e Marmitex, Ornamentações, Serviços de Apoio, Locações Mesas, Cadeiras, Equipamentos e Espaços e demais serviços, para atendimento dos eventos públicos e institucionais promovidos pelas diversas Secretarias Municipais deste Município de Cabaceiras do Paraguaçu/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13866892000150/2025/25' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='#' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Eventos</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13937032000160/2026/2181' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098450' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">9. Edital de Chamamento Público nº 2/2026 — BAHIA TRIBUNAL DE JUSTICA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/10/2026 às 18:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.240.980,00</div>
+                <div><span class="info-label">Publicação:</span> 03/10/2025 às 17:00</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de interessados na prestação de serviços no ramo de alimentação, com a finalidade de fornecimento de refeições prontas tipo self-service/marmitex e kit lanche, para as Sessões dos Júris nas Comarcas de Alagoinhas, Barreiras, Camaçari, Guanambi, Itabuna e Jacobina, em conformidade com as disposições do Termo de Referência e deste Edital e seus anexos.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13100722000160/2026/2' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">13. Edital nº PE052-2026/2026 — MUNICIPIO DE POJUCA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Pojuca - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">25/08/2026 às 10:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.436.488,11</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/08/2026 às 18:31</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa especializada para fornecimento parcelado de refeições e lanches para atender as demandas das diversas Secretarias do Município de Pojuca/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13806237000106/2026/170' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098363' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">14. Edital nº 22009PE0062026/2026 — SECRETARIA DE CULTURA - SECULT</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">26/08/2026 às 08:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.886.990,25</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/08/2026 às 14:43</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Serviços comuns e serviços comuns de engenharia</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/00401376000108/2026/74' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card pregao">
-        <div class="card-header">
-            <div class="card-title">15. Edital nº 6/2026/2026 — ESTADO DA BAHIA</div>
-            <span class="badge badge-pregao">Pregão - Eletrônico</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão Pública:</span> <span class="enc-date">26/08/2026 às 09:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.886.990,28</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/08/2026 às 18:31</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de produtora especializada para prestação de serviços de operação técnica, produção executiva de pauta, apoio à execução artística e manutenção operacional no Teatro Carlos Pitta e Centro de Convênções de Feira de Santana.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13937032000160/2026/2178' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitacoes-e2.bb.com.br/aop-inter-estatico/visualizar-processo-publico/1098355' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-<h2>📜 2. Demais Editais Abertos na Bahia - Credenciamento & Dispensa (48)</h2>
-
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">1. Edital de Chamamento Público nº 010/2025 — MUNICIPIO DE CANARANA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Canarana - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">12/08/2026 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.608.890,30</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 11/12/2025 às 09:33</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento para aquisição de refeições (almoço e jantar), Marmitas, Lanche, Sucos, Almoço, Coffe Break, Refeição, Bolo, Salgados, Refrigerante Hambúrguer e congêneres, visando  atender, de forma adequada, assessores, consultores, prestadores de serviços, servidores públicos em atividade que exija alimentação, pessoas/famílias em situação de vulnerabilidade (transeuntes), pessoas em necessidade de tratamento, bem como para atendimento a demanda quando da realização de eventos esportivos e culturais, promovidos e/ou apoiados, pelo Município, desde que previsto em contratos/convênios/ajustes dentre outras necessidades de alimentação para atender o Município de Canarana – BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13714464000101/2025/79' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">2. Aviso de Contratação Direta nº PCE2022620260016/2026 — POLICIA MILITAR DA BAHIA</div>
-            <span class="badge badge-outros">Dispensa</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">12/08/2026 às 10:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 20.160,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 06/08/2026 às 14:44</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> Fornecimento de Alimentação</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/33457634000127/2026/752' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">3. Aviso de Contratação Direta nº 019/2026 — CONSORCIO DE DESENVOLVIMENTO SUSTENTAVEL DO TERRITORIO DO SERTAO DO SAO FRANCISCO</div>
-            <span class="badge badge-outros">Dispensa</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Juazeiro - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/08/2026 às 08:29</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 19.819,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/08/2026 às 12:37</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos, Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para o fornecimento de lanches (coffee break) e locação de cadeiras, destinados ao atendimento de eventos institucionais, reuniões, capacitações, seminários, oficinas, audiências públicas, encontros técnicos e demais atividades promovidas pelo Consórcio de Desenvolvimento Sustentável do Território do Sertão do São Francisco – CONSTESF.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/11308356000103/2026/28' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]ols_LRXPxNFlmvtpz_42o/d9/UsHHXawc_TvgEtJ_2k9HYC01GCtQ8EZ5EQpIQvnqn9xZqCtuDzSVpl9ZnNjI53yY0E2FytoqZyUN3FMWFo=' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">4. Aviso de Contratação Direta nº PCE1915020260247/2026 — FUNDO ESTADUAL DE SAUDE DO ESTADO DA BAHIA</div>
-            <span class="badge badge-outros">Dispensa</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/08/2026 às 16:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 37.800,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 06/08/2026 às 08:57</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> FORNECIMENTO DE ALIMENTAÇÃO NO CPERED</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/05816630000152/2026/5838' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">5. Edital de Chamamento Público nº CR005/2025/2025 — MUNICIPIO DE ITABELA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Itabela - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/08/2026 às 12:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 243.158,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 14/08/2025 às 11:45</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Contratação de empresa para prestação de serviços de Marmitex, buffet Tipo Almoço e jantar, refeição self service para atender as necessidades das diversas Secretarias da prefeitura municipal de Itabela/BA</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/16234429000183/2025/52' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/142434?localConsulta=2&cod=1686' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">6. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE RIACHO DE SANTANA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Riacho de Santana - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/08/2026 às 08:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.274.509,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 04/08/2026 às 17:24</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> EDITAL DA CHAMADA PÚBLICA N° 002/2026-CP - PROCESSO ADMINISTRATIVO Nº 051/2026 - PARA AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS DA AGRICULTURA FAMILIAR E/OU EMPREENDEDOR FAMILIAR RURAL PARA ALIMENTAÇÃO ESCOLAR NO MUNICÍPIO DE RIACHO DE SANTANA/BA, PARA ATENDER AO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR – PNAE.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14105191000160/2026/60' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">7. Edital de Chamamento Público nº CHAMADA PUBLICA AGRI 002/206 - R/2026 — MUNICIPIO DE IBIRAPITANGA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ibirapitanga - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/08/2026 às 10:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.327.022,28</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/07/2026 às 14:33</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> REPUBLICADO - CREDENCIAMENTO DESTINADO AO ATENDIMENTO DO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR, PARA AQUISIÇÃO DE GÊNEROS ALIMENTICIOS DA AGRICULTURA FAMILIAR E DO EMPREENDEDOR FAMILIAR RURAL PARA O DESTINADO A ALIMENTAÇÃO ESCOLAR DA REDE DE ENSINOPNAE DO MUNICIPIO DE IBIRAPITANGA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13846753000164/2026/73' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='#' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">8. Edital de Chamamento Público nº 033/2025/2025 — CAMARA DE VEREADORES DE IBIRAPITANGA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ibirapitanga - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/09/2026 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 45.593,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 11/09/2025 às 17:03</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas fisicas e juridicas para prestacao de servicos de buffet para atender as necessidades da Camara Municipal de Ibirapitanga/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/16413551000117/2025/35' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">9. Edital de Chamamento Público nº 027/2025/2025 — MUNICIPIO DE BRUMADO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Brumado - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">24/09/2026 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 996.813,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 26/09/2025 às 16:23</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos, Coffee Break, Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> credenciamento, objetivando a contratação, via chamada pública, de pessoas físicas ou jurídicas aptas à prestação de Serviços de Buffet (Coffee Break, Coquetel e Lanches), para eventos públicos e institucionais promovidos pelas diversas Secretarias Municipais de BRUMADO/BA, conforme as condições, especificações e exigências estabelecidas neste instrumento e em seus anexos.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14105704000133/2025/55' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">10. Edital nº 004C/2025/2025 — MUNICIPIO DE CABACEIRAS DO PARAGUACU</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Cabaceiras do Paraguaçu - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">01/10/2026 às 07:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.783.055,63</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 01/10/2025 às 13:02</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Buffet, Buffet para eventos, Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoa física ou jurídica para fornecimento de refeições Buffet, Coffee Break, Lanches e Marmitex, Ornamentações, Serviços de Apoio, Locações Mesas, Cadeiras, Equipamentos e Espaços e demais serviços, para atendimento dos eventos públicos e institucionais promovidos pelas diversas Secretarias Municipais deste Município de Cabaceiras do Paraguaçu/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13866892000150/2025/25' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='#' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">11. Edital de Chamamento Público nº 2/2026 — BAHIA TRIBUNAL DE JUSTICA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/10/2026 às 18:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.240.980,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 03/10/2025 às 17:00</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de interessados na prestação de serviços no ramo de alimentação, com a finalidade de fornecimento de refeições prontas tipo self-service/marmitex e kit lanche, para as Sessões dos Júris nas Comarcas de Alagoinhas, Barreiras, Camaçari, Guanambi, Itabuna e Jacobina, em conformidade com as disposições do Termo de Referência e deste Edital e seus anexos.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13100722000160/2026/2' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">12. Edital de Chamamento Público nº 005/2025CR/2025 — MUNICIPIO DE LAGOA REAL</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Lagoa Real - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">08/10/2026 às 20:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 547.790,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 08/10/2025 às 19:29</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS PARA FORNECER REFEIÇÕES PRONTAS, COMO ALMOÇO, JANTAR, MARMITEX, CAFÉ DA MANHÃ, COFFEE BREAK, SALGADOS, BEBIDAS E SUCOS, COM O OBJETIVO
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">10. Edital de Chamamento Público nº 005/2025CR/2025 — MUNICIPIO DE LAGOA REAL</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Lagoa Real - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">08/10/2026 às 20:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 547.790,00</div>
+                <div><span class="info-label">Publicação:</span> 08/10/2025 às 19:29</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Coffee Break</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE EMPRESAS ESPECIALIZADAS PARA FORNECER REFEIÇÕES PRONTAS, COMO ALMOÇO, JANTAR, MARMITEX, CAFÉ DA MANHÃ, COFFEE BREAK, SALGADOS, BEBIDAS E SUCOS, COM O OBJETIVO
 DE ATENDER ÀS NECESSIDADES DAS VÁRIAS SECRETARIAS DO MUNICÍPIO DE LAGOA REAL – BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/16416117000190/2025/130' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]GmUOAgRGV4gmA89EK/JMiv61SybBnYxTXmAGJ8DRTZnQG3z3RIPw3y4SezSqVs6KOy9yApmNmK0bThtQ4PdiyoDX/jYq6LwZJ2r1MZVPPK0=' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/16416117000190/2025/130' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bnccompras.com/Process/ProcessView?param1=[gkz]GmUOAgRGV4gmA89EK/JMiv61SybBnYxTXmAGJ8DRTZnQG3z3RIPw3y4SezSqVs6KOy9yApmNmK0bThtQ4PdiyoDX/jYq6LwZJ2r1MZVPPK0=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">13. Edital de Chamamento Público nº 032/2025 — MUNICIPIO DE MORPARA</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">11. Edital de Chamamento Público nº 032/2025 — MUNICIPIO DE MORPARA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Morpará - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">10/10/2026 às 23:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.084.125,78</div>
+                <div><span class="info-label">Publicação:</span> 29/09/2025 às 17:13</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO de pessoa física ou jurídica especializada no preparo de refeições (café da manhã, almoço e janta) e buffet (salgados, bolos e serviços) diariamente e/ou quando solicitada, incluindo finais de semana e feriados para sede e zona rural, destinadas a suprir as demandas das diversas secretarias deste município de Morpará Bahia.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13798574000107/2025/79' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='morpara.ba.gov.br' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Morpará - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">10/10/2026 às 23:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.084.125,78</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 29/09/2025 às 17:13</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">12. Edital de Chamamento Público nº 1/2026 — MUNICIPIO DE RIO DO ANTONIO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Rio do Antônio - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">22/10/2026 às 11:58</span></div>
+                <div><span class="info-label">Valor Estimado:</span> Não informado / Sigiloso</div>
+                <div><span class="info-label">Publicação:</span> 22/10/2025 às 08:52</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Prestação de serviços no fornecimento de lanches e minissalgados, refeições e hospedagem para os servidores públicos, terceiros contratados, pessoal vinculado à segurança pública, custodiados da delegacia de polícia territorial de Rio do Antônio e aos demais interesses da municipalidad</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13678008000153/2026/1' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO de pessoa física ou jurídica especializada no preparo de refeições (café da manhã, almoço e janta) e buffet (salgados, bolos e serviços) diariamente e/ou quando solicitada, incluindo finais de semana e feriados para sede e zona rural, destinadas a suprir as demandas das diversas secretarias deste município de Morpará Bahia.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13798574000107/2025/79' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='morpara.ba.gov.br' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">13. Edital de Chamamento Público nº 030/2025 — MUNICIPIO DE BRUMADO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Brumado - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">29/10/2026 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 4.131.147,94</div>
+                <div><span class="info-label">Publicação:</span> 28/10/2025 às 17:00</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Chamamento Público com vistas ao Credenciamento, objetivando a Contratação de empresa(s) especializada(s) na prestação de serviços, sob demanda, de organização de eventos institucionais para atender as necessidades das diversas Secretarias deste Município de Brumado/BA, contemplando os serviços de: assessoria, planejamento, organização, produção, execução, coordenação, fornecimento de alimentação e bebidas, infraestrutura, ornamentação e mobiliário, apoio logístico e acompanhamento antes, durante e após a realização de eventos institucionais, conforme as condições, especificações e exigências estabelecidas neste instrumento e em seus anexos.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14105704000133/2025/94' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='semad_licitacao@brumado.ba.gov.br' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">14. Edital de Chamamento Público nº 1/2026 — MUNICIPIO DE RIO DO ANTONIO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Rio do Antônio - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">22/10/2026 às 11:58</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> Não informado / Sigiloso</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 22/10/2025 às 08:52</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Prestação de serviços no fornecimento de lanches e minissalgados, refeições e hospedagem para os servidores públicos, terceiros contratados, pessoal vinculado à segurança pública, custodiados da delegacia de polícia territorial de Rio do Antônio e aos demais interesses da municipalidad</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13678008000153/2026/1' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">15. Edital de Chamamento Público nº 030/2025 — MUNICIPIO DE BRUMADO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Brumado - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">29/10/2026 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 4.131.147,94</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 28/10/2025 às 17:00</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Chamamento Público com vistas ao Credenciamento, objetivando a Contratação de empresa(s) especializada(s) na prestação de serviços, sob demanda, de organização de eventos institucionais para atender as necessidades das diversas Secretarias deste Município de Brumado/BA, contemplando os serviços de: assessoria, planejamento, organização, produção, execução, coordenação, fornecimento de alimentação e bebidas, infraestrutura, ornamentação e mobiliário, apoio logístico e acompanhamento antes, durante e após a realização de eventos institucionais, conforme as condições, especificações e exigências estabelecidas neste instrumento e em seus anexos.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14105704000133/2025/94' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='semad_licitacao@brumado.ba.gov.br' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">16. Edital nº 004/2026 — MUNICIPIO DE RIACHAO DAS NEVES</div>
-            <span class="badge badge-outros">Dispensa</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Riachão das Neves - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">30/10/2026 às 17:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 63.755,11</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 28/01/2026 às 08:17</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> obtenção de propostas adicionais mais vantajosas, para
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">14. Edital nº 004/2026 — MUNICIPIO DE RIACHAO DAS NEVES</div>
+                <span class="badge badge-outros">Dispensa</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Riachão das Neves - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">30/10/2026 às 17:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 63.755,11</div>
+                <div><span class="info-label">Publicação:</span> 28/01/2026 às 08:17</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Coffee Break</div>
+            <div class="objeto-text"><b>Objeto:</b> obtenção de propostas adicionais mais vantajosas, para
 Contratação de empresa especializada para o fornecimento
 de serviços de ornamentação temática e coffee break,
 incluindo planejamento, montagem, fornecimento de
@@ -793,636 +581,634 @@ materiais, alimentos e bebidas, bem como a organização e
 disposição dos itens, destinados à Jornada Pedagógica no dia
 03 de fevereiro de 2026, conforme as especificações
 estabelecidas no Termo de Referência.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14100747000126/2026/6' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14100747000126/2026/6' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">17. Edital nº 009/2025 — MUNICIPIO DE ITAGIBA</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">15. Edital nº 009/2025 — MUNICIPIO DE ITAGIBA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Itagibá - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/11/2026 às 17:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 532.953,88</div>
+                <div><span class="info-label">Publicação:</span> 11/11/2025 às 08:36</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> CHAMAMENTO PÚBLICO PARA CREDENCIAMENTO DE PESSOAS JURÍDICAS CLASSIFICADAS COMO HOTEL OU POUSADA LOCALIZADAS NA SEDE DO MUNICÍPIO DE SALVADOR, PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM COM ALIMENTAÇÃO, INCLUINDO CAFÉ DA MANHÃ, ALMOÇO E JANTAR COM TRANSLADO DOS PACIENTES ENTRE POUSADA/HOTEL E OS HOSPITAIS/CLINICAS E VICE-VERSA EM ATENDIMENTO AOS PACIENTES EM TRATAMENTO FORA DO DOMICÍLIO (TFD) DO MUNICÍPIO DE ITAGIBA – BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13701966000106/2025/239' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/147847?localConsulta=2&cod=1692' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Itagibá - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/11/2026 às 17:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 532.953,88</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 11/11/2025 às 08:36</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">16. Edital nº 038/2025 — MUNICIPIO DE CAPIM GROSSO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Capim Grosso - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">19/11/2026 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 4.326.075,50</div>
+                <div><span class="info-label">Publicação:</span> 18/11/2025 às 14:34</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Coffee Break, Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE PÃES DIVERSOS PARA ALIMENTAÇÃO ESCOLAR E LANCHES PARA EVENTOS ESTUDANTIS VISANDO ATENDER A REDE MUNICIPAL DE ENSINO DO MUNICÍPIO DE CAPIM GROSSO – BAHIA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13230982000150/2025/185' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> CHAMAMENTO PÚBLICO PARA CREDENCIAMENTO DE PESSOAS JURÍDICAS CLASSIFICADAS COMO HOTEL OU POUSADA LOCALIZADAS NA SEDE DO MUNICÍPIO DE SALVADOR, PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM COM ALIMENTAÇÃO, INCLUINDO CAFÉ DA MANHÃ, ALMOÇO E JANTAR COM TRANSLADO DOS PACIENTES ENTRE POUSADA/HOTEL E OS HOSPITAIS/CLINICAS E VICE-VERSA EM ATENDIMENTO AOS PACIENTES EM TRATAMENTO FORA DO DOMICÍLIO (TFD) DO MUNICÍPIO DE ITAGIBA – BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13701966000106/2025/239' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/147847?localConsulta=2&cod=1692' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">17. Edital de Chamamento Público nº CR 012-2025/2025 — MUNICIPIO DE IRAQUARA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Iraquara - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/11/2026 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.643.500,00</div>
+                <div><span class="info-label">Publicação:</span> 25/11/2025 às 09:21</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA PRESTACAO DE SERVICO DE PESSOAS FISICAS E JURIDICAS EM TODAS AS  CIDADES DA BAHIA, PARA ATENDER AS DEMANDAS COM REFEICOES DAS DIVERSAS SECRETARIAS DO MUNICIPIO DE IRAQUARA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13922596000129/2025/126' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">18. Edital nº 038/2025 — MUNICIPIO DE CAPIM GROSSO</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">18. Edital nº 100243459/2026 — MUNICIPIO DE PARAMIRIM</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Paramirim - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 417.872,00</div>
+                <div><span class="info-label">Publicação:</span> 17/12/2025 às 11:14</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento visando a contratação de empresa especializada em serviços de hospedagem e alimentação, destinados às pessoas em tratamento de saúde no município de Salvador/Ba, no exercício de 2026</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13675491000112/2026/3' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Capim Grosso - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">19/11/2026 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 4.326.075,50</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 18/11/2025 às 14:34</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">19. Edital de Chamamento Público nº 100263855/2026 — MUNICIPIO DE SANTANA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Santana - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 274.660,00</div>
+                <div><span class="info-label">Publicação:</span> 06/03/2026 às 14:58</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> EDITAL DE CREDENCIAMENTO 010-2026 - REFEIÇÃO</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13913140000100/2026/21' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE PÃES DIVERSOS PARA ALIMENTAÇÃO ESCOLAR E LANCHES PARA EVENTOS ESTUDANTIS VISANDO ATENDER A REDE MUNICIPAL DE ENSINO DO MUNICÍPIO DE CAPIM GROSSO – BAHIA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13230982000150/2025/185' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">19. Edital de Chamamento Público nº CR 012-2025/2025 — MUNICIPIO DE IRAQUARA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Iraquara - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/11/2026 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.643.500,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 25/11/2025 às 09:21</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA PRESTACAO DE SERVICO DE PESSOAS FISICAS E JURIDICAS EM TODAS AS  CIDADES DA BAHIA, PARA ATENDER AS DEMANDAS COM REFEICOES DAS DIVERSAS SECRETARIAS DO MUNICIPIO DE IRAQUARA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13922596000129/2025/126' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">20. Edital nº 100243459/2026 — MUNICIPIO DE PARAMIRIM</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Paramirim - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 417.872,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 17/12/2025 às 11:14</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento visando a contratação de empresa especializada em serviços de hospedagem e alimentação, destinados às pessoas em tratamento de saúde no município de Salvador/Ba, no exercício de 2026</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13675491000112/2026/3' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">21. Edital de Chamamento Público nº 100263855/2026 — MUNICIPIO DE SANTANA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Santana - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 274.660,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 06/03/2026 às 14:58</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> EDITAL DE CREDENCIAMENTO 010-2026 - REFEIÇÃO</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13913140000100/2026/21' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">22. Edital nº 006/2026/2026 — MUNICIPIO DE IGUAI</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Iguaí - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 10:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.466.233,34</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/05/2026 às 10:21</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> A presente licitação tem por objeto a credenciamento de pessoas físicas ou 
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">20. Edital nº 006/2026/2026 — MUNICIPIO DE IGUAI</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Iguaí - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 10:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.466.233,34</div>
+                <div><span class="info-label">Publicação:</span> 07/05/2026 às 10:21</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> A presente licitação tem por objeto a credenciamento de pessoas físicas ou 
 jurídicas para o fornecimento de refeições prontas com intuito de atender os termos de 
 cooperação entre município e estado, entre outros entes, datas comemorativas, eventos 
 do calendário e servidores em serviço, no Município de Iguaí, nas quantidades, 
 qualidades e condições descritas em edital, conforme especificações</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13858303000191/2026/26' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bnc.org.br/ ' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13858303000191/2026/26' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bnc.org.br/ ' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">23. Edital de Chamamento Público nº CRD-04-2026/2026 — MUNICIPIO DE IBIPEBA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ibipeba - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 13:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.489.706,50</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 19/03/2026 às 11:18</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> Aquisição de gêneros alimentícios diretamente de Agricultura Familiar para alimentação escolar 
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">21. Edital de Chamamento Público nº CRD-04-2026/2026 — MUNICIPIO DE IBIPEBA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ibipeba - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 13:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.489.706,50</div>
+                <div><span class="info-label">Publicação:</span> 19/03/2026 às 11:18</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> Aquisição de gêneros alimentícios diretamente de Agricultura Familiar para alimentação escolar 
 no ano letivo de 2026, destinado à complementação do cardápio, atendendo as necessidades nutricionais 
 previstas pelo Programa Nacional de Alimentação Escolar (PNAE) para atender as demandas da Secretaria 
 Municipal de Educação de Ibipeba - Bahia.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13714803000150/2026/9' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/155156?localConsulta=2&cod=7104' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13714803000150/2026/9' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/155156?localConsulta=2&cod=7104' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">24. Edital de Chamamento Público nº CRED 004/2026/2026 — MUNICIPIO DE RUY BARBOSA</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">22. Edital de Chamamento Público nº CRED 004/2026/2026 — MUNICIPIO DE RUY BARBOSA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ruy Barbosa - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 14:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 614.078,30</div>
+                <div><span class="info-label">Publicação:</span> 27/05/2026 às 19:53</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE PESSOA FÍSICA E/OU JURÍDICA PARA ORGANIZAÇÃO E FORNECIMENTO DE BUFFET E CAMARIM, DESTINADOS À REALIZAÇÃO DE EVENTOS CULTURAIS E TRADICIONAIS PROMOVIDOS PELO MUNICÍPIO DE RUY BARBOSA/BA, CONTEMPLANDO TAMBÉM REUNIÕES, JORNADAS PEDAGÓGICAS, CAMPANHAS INSTITUCIONAIS, CONFERÊNCIAS, SEMINÁRIOS E DEMAIS EVENTOS REALIZADOS PELA ADMINISTRAÇÃO PÚBLICA MUNICIPAL.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13810833000160/2026/58' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/162255?localConsulta=2&cod=1849' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ruy Barbosa - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 14:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 614.078,30</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 27/05/2026 às 19:53</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE PESSOA FÍSICA E/OU JURÍDICA PARA ORGANIZAÇÃO E FORNECIMENTO DE BUFFET E CAMARIM, DESTINADOS À REALIZAÇÃO DE EVENTOS CULTURAIS E TRADICIONAIS PROMOVIDOS PELO MUNICÍPIO DE RUY BARBOSA/BA, CONTEMPLANDO TAMBÉM REUNIÕES, JORNADAS PEDAGÓGICAS, CAMPANHAS INSTITUCIONAIS, CONFERÊNCIAS, SEMINÁRIOS E DEMAIS EVENTOS REALIZADOS PELA ADMINISTRAÇÃO PÚBLICA MUNICIPAL.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13810833000160/2026/58' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/162255?localConsulta=2&cod=1849' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">25. Edital nº 004/2026/2026 — MUNICIPIO DE ITAJUIPE</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Itajuípe - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 17:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 371.800,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 11/02/2026 às 12:27</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE  EMPRESAS ESPECIALIZADAS PARA PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE 
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">23. Edital nº 004/2026/2026 — MUNICIPIO DE ITAJUIPE</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Itajuípe - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 17:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 371.800,00</div>
+                <div><span class="info-label">Publicação:</span> 11/02/2026 às 12:27</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE  EMPRESAS ESPECIALIZADAS PARA PRESTAÇÃO DE SERVIÇOS DE FORNECIMENTO DE 
 REFEIÇÕES PRONTAS DO TIPO BUFFET LIVRE (ALMOÇO/JANTAR) E MARMITEX, PARA  ATENDER AS DEMANDAS DAS DIVERSAS SECRETARIAS DO MUNICÍPIO</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14147946000190/2026/3' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/152840?localConsulta=2&cod=2612' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14147946000190/2026/3' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/152840?localConsulta=2&cod=2612' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">26. Edital nº CRED 007/2026/2026 — MUNICIPIO DE LAFAIETE COUTINHO</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">24. Edital nº CRED 007/2026/2026 — MUNICIPIO DE LAFAIETE COUTINHO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Lafaiete Coutinho - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 17:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 742.070,00</div>
+                <div><span class="info-label">Publicação:</span> 27/05/2026 às 11:40</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> CONTRATAÇÃO DE PESSOA FÍSICA OU JURÍDICA FORNECIMENTO DE REFEIÇÕES E LANCHES, VISANDO ATENDER AS NECESSIDADES DAS DIVERSAS SECRETARIAS DO MUNICIPIO DE LAFAIETE COUTINHO-BA</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14205959000178/2026/64' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/162119?localConsulta=2&cod=1749' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Lafaiete Coutinho - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 17:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 742.070,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 27/05/2026 às 11:40</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> CONTRATAÇÃO DE PESSOA FÍSICA OU JURÍDICA FORNECIMENTO DE REFEIÇÕES E LANCHES, VISANDO ATENDER AS NECESSIDADES DAS DIVERSAS SECRETARIAS DO MUNICIPIO DE LAFAIETE COUTINHO-BA</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14205959000178/2026/64' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/162119?localConsulta=2&cod=1749' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">27. Edital de Chamamento Público nº CRE006/2026 — MUNICIPIO DE CAMPO FORMOSO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Campo Formoso - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 23:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.131.702,11</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/05/2026 às 17:33</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">25. Edital de Chamamento Público nº CRE006/2026 — MUNICIPIO DE CAMPO FORMOSO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Campo Formoso - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/12/2026 às 23:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.131.702,11</div>
+                <div><span class="info-label">Publicação:</span> 07/05/2026 às 17:33</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA
 FORNECIMENTO DE REFEIÇÕES TIPO CAFÉ DA MANHÃ, ALMOÇO, JANTA E LANCHES
  PARA ATENDER ÀS DEMANDAS PERTINENTES ÀS DIVERSAS SECRETARIAS QUE COMPÕEM 
 A ADMINISTRAÇÃO DO MUNICÍPIO DE CAMPO FORMOSO-BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13908702000110/2026/64' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13908702000110/2026/64' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">28. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE MATA DE SAO JOAO</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">26. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE MATA DE SAO JOAO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Mata de São João - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/01/2027 às 23:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.167.679,38</div>
+                <div><span class="info-label">Publicação:</span> 15/01/2026 às 16:28</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> O presente processo visa a realização de credenciamento de artistas, grupos culturais, produtor de eventos por meio de pessoas físicas e jurídicas para a realização de apresentações musicais e artísticas e organização de eventos a serem executadas nos eventos promovidos e apoiados pela Prefeitura de Mata de São João.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13805528000180/2026/5' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/150942?localConsulta=2&cod=1775' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Mata de São João - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/01/2027 às 23:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.167.679,38</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 15/01/2026 às 16:28</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">27. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE RIO DO PIRES</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Rio do Pires - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/01/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 530.000,00</div>
+                <div><span class="info-label">Publicação:</span> 22/01/2026 às 10:37</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação</div>
+            <div class="objeto-text"><b>Objeto:</b> Objeto: Chamamento público através do credenciamento de pessoa física ou jurídica, visando a prestação de serviços no fornecimento de alimentação, para atender a demanda da Administração Municipal na sede, distrito e povoados deste município.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13783279000179/2026/6' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> O presente processo visa a realização de credenciamento de artistas, grupos culturais, produtor de eventos por meio de pessoas físicas e jurídicas para a realização de apresentações musicais e artísticas e organização de eventos a serem executadas nos eventos promovidos e apoiados pela Prefeitura de Mata de São João.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13805528000180/2026/5' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/150942?localConsulta=2&cod=1775' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">28. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE XIQUE-XIQUE</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Xique-Xique - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">09/02/2027 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 953.210,00</div>
+                <div><span class="info-label">Publicação:</span> 09/02/2026 às 14:33</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento para contratação de Pessoa Física/Jurídica para fornecimento de refeições, salgados, bolos, doces e buffet para atender as necessidades das Secretarias Municipais de Xique-Xique/BA, durante o exercício de 2026.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13880257000127/2026/7' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">29. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE RIO DO PIRES</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Rio do Pires - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/01/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 530.000,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 22/01/2026 às 10:37</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação</div>
-        <div class="objeto-text"><b>Objeto:</b> Objeto: Chamamento público através do credenciamento de pessoa física ou jurídica, visando a prestação de serviços no fornecimento de alimentação, para atender a demanda da Administração Municipal na sede, distrito e povoados deste município.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13783279000179/2026/6' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">30. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE XIQUE-XIQUE</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Xique-Xique - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">09/02/2027 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 953.210,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 09/02/2026 às 14:33</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento para contratação de Pessoa Física/Jurídica para fornecimento de refeições, salgados, bolos, doces e buffet para atender as necessidades das Secretarias Municipais de Xique-Xique/BA, durante o exercício de 2026.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13880257000127/2026/7' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">31. Edital de Chamamento Público nº CD 002/2026 — MUNICIPIO DE JUAZEIRO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Juazeiro - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">20/02/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 2.192.300,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 02/02/2026 às 13:55</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para cerimônias, Buffet para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento para Contratação de empresa especializada para prestação de serviços de
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">29. Edital de Chamamento Público nº CD 002/2026 — MUNICIPIO DE JUAZEIRO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Juazeiro - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">20/02/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 2.192.300,00</div>
+                <div><span class="info-label">Publicação:</span> 02/02/2026 às 13:55</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para cerimônias, Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento para Contratação de empresa especializada para prestação de serviços de
 Buffet (sistema selfservice, quentinhas, café da manhã, salgados, lanches), para eventos e cerimônias
 destinados a suprir as necessidades da Secretaria Municipal de Desenvolvimento Social, Diversidade,
 Igualdade Racial e Combate à Fome de Juazeiro/BA</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13915632000127/2026/13' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]coJQ0OIKl8/K35Z/NVtmBMgRZ5k6lsBuXj/j7MWdgSsvFbfvKd8qadDBLKy7RYRWAlPPCJYfiG747q72X9v8bX7w18XjvmxSa6HtUIHAs1A=' target='_blank'>🌐 Portal de Origem</a>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13915632000127/2026/13' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]coJQ0OIKl8/K35Z/NVtmBMgRZ5k6lsBuXj/j7MWdgSsvFbfvKd8qadDBLKy7RYRWAlPPCJYfiG747q72X9v8bX7w18XjvmxSa6HtUIHAs1A=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">32. Edital de Chamamento Público nº 001/2026 — MUNICIPIO DE BARROCAS</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">30. Edital de Chamamento Público nº 001/2026 — MUNICIPIO DE BARROCAS</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Barrocas - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">03/03/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.766.680,00</div>
+                <div><span class="info-label">Publicação:</span> 02/03/2026 às 10:41</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA AQUISIÇÃO DE REFEIÇÕES PRONTAS DO TIPO SELF-SERVICE E MARMITEX PARA ATENDER A DEMANDA DAS DIVERSAS SECRETARIAS QUE COMPÕEM ESSA ADMINISTRAÇÃO MUNICIPAL DE BARROCAS -BA</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/04216287000142/2026/18' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='#' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Barrocas - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">03/03/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.766.680,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 02/03/2026 às 10:41</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">31. Edital nº 001/2026/2026 — CONSORCIO PUBLICO INTERFEDERATIVO DE SAUDE RECONVALE</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Santo Antônio de Jesus - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">05/03/2027 às 16:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 424.562,87</div>
+                <div><span class="info-label">Publicação:</span> 10/03/2026 às 09:12</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Fornecimento de refeições (Buffet, Coffee Break), Kits Lanches, Ornamentações, Serviços de Apoio, Locações (Mesas, Cadeiras, Equipamentos e Espaços) e outros, para atendimento dos eventos públicos e institucionais promovidos pelo Consórcio Reconvale para atender a unidade da Policlínica Regional de Santo Antônio de Jesus.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/29551521000119/2026/4' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/154481?localConsulta=2&cod=5956' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO PARA AQUISIÇÃO DE REFEIÇÕES PRONTAS DO TIPO SELF-SERVICE E MARMITEX PARA ATENDER A DEMANDA DAS DIVERSAS SECRETARIAS QUE COMPÕEM ESSA ADMINISTRAÇÃO MUNICIPAL DE BARROCAS -BA</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/04216287000142/2026/18' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='#' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">32. Edital de Chamamento Público nº 004/2026/2026 — MUNICIPIO DE LIVRAMENTO DE NOSSA SENHORA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Livramento de Nossa Senhora - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/03/2027 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 5.097.500,00</div>
+                <div><span class="info-label">Publicação:</span> 27/03/2026 às 11:20</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> credenciamento de pessoas físicas ou jurídicas, prestadoras de atividades artísticas (Músicos e outros), para realização de shows em eventos no Município de Livramento de Nossa Senhora/Ba</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13674817000197/2026/42' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/155853?localConsulta=2&cod=1757' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">33. Edital nº 001/2026/2026 — CONSORCIO PUBLICO INTERFEDERATIVO DE SAUDE RECONVALE</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">33. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE CORRENTINA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Correntina - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/03/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 693.500,00</div>
+                <div><span class="info-label">Publicação:</span> 30/04/2026 às 08:49</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> credenciamento de pessoas físicas e/ou jurídicas para o fornecimento de refeições prontas, marmitas (quentinhas) e kit buffet, em atendimento às demandas das diversas Secretarias e Fundos Municipais, pelo período de 12 (doze) meses, conforme condições estabelecidas neste Edital e seus anexos.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/14221741000107/2026/43' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Santo Antônio de Jesus - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">05/03/2027 às 16:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 424.562,87</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 10/03/2026 às 09:12</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">34. Edital de Chamamento Público nº CD 007/2026 — MUNICIPIO DE JUAZEIRO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Juazeiro - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/04/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 8.540.086,35</div>
+                <div><span class="info-label">Publicação:</span> 09/04/2026 às 14:03</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Coffee Break</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas jurídicas especializadas na prestação de serviços de buffet, sob demanda, abrangendo refeições prontas, coffee break, café da manhã, kit-lanche, doces e salgados, para atendimento das necessidades institucionais da Secretaria Municipal de Educação de Juazeiro/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13915632000127/2026/87' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]WUDveHASd//pR/Zj9FaDCTzY2S5TLU7Nnj8QjKWxR5hR301pChEOL9vNIv7DuaDbuRObZapqVoT8zgfkRA5AXynoOl00SSxQGnRn519hu7k=' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos, Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> Fornecimento de refeições (Buffet, Coffee Break), Kits Lanches, Ornamentações, Serviços de Apoio, Locações (Mesas, Cadeiras, Equipamentos e Espaços) e outros, para atendimento dos eventos públicos e institucionais promovidos pelo Consórcio Reconvale para atender a unidade da Policlínica Regional de Santo Antônio de Jesus.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/29551521000119/2026/4' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/154481?localConsulta=2&cod=5956' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">35. Edital de Chamamento Público nº 100273858/2026 — MUNICIPIO DE IRECE</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Irecê - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">17/04/2027 às 14:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 303.675,72</div>
+                <div><span class="info-label">Publicação:</span> 14/04/2026 às 11:56</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Catering</div>
+            <div class="objeto-text"><b>Objeto:</b> Constitui objeto do presente a fixação de normas e regras para cadastramento e posterior credenciamento/contratação objetivando a prestação de serviços de planejamento, organização, coordenação e estruturação de eventos institucionais e serviço de catering para camarim para atender as demandas do Município de Irecê/BA, nos termos e condições estabelecidos neste edital e seus anexos. / Edital de Credenciamento nº 007.2026.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13715891000104/2026/57' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">34. Edital de Chamamento Público nº 004/2026/2026 — MUNICIPIO DE LIVRAMENTO DE NOSSA SENHORA</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">36. Edital de Chamamento Público nº CP 004/2026/2026 — MUNICIPIO DE IBOTIRAMA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ibotirama - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/05/2027 às 16:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 287.865,10</div>
+                <div><span class="info-label">Publicação:</span> 06/05/2026 às 16:08</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas jurídicas especializadas para fornecimento de gêneros alimentícios, compreendendo bolos, salgados, lanches prontos, sucos concentrados e itens correlatos, destinados ao atendimento das demandas institucionais, administrativas, educacionais, sociais, culturais, protocolares e operacionais promovidas ou apoiadas pela Administração Pública Municipal de Ibotirama/BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13798152000123/2026/66' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/159002?localConsulta=2&cod=1072' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Livramento de Nossa Senhora - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">26/03/2027 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 5.097.500,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 27/03/2026 às 11:20</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">37. Edital de Chamamento Público nº 11700CR0032023/2023 — INSTITUTO DE RADIODIFUSAO EDUCATIVA DA BAHIA IRDEB</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">08/05/2027 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 33,47</div>
+                <div><span class="info-label">Publicação:</span> 08/05/2026 às 12:01</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Buffet, Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE BUFFET E ALIMENTAÇÃO PRONTA – (KIT LANCHE) POR MEIO DE CREDENCIAMENTO, PARA ATENDER AS NECESSIDADES DOS PROFISSIONAIS ENVOLVIDOS NAS COBERTURAS DE EVENTOS EXTERNOS E DAR SUPORTE À PROGRAMAS, PROJETOS E AÇÕES NO ÂMBITO DO IRDEB.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13420609000161/2023/1' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> credenciamento de pessoas físicas ou jurídicas, prestadoras de atividades artísticas (Músicos e outros), para realização de shows em eventos no Município de Livramento de Nossa Senhora/Ba</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13674817000197/2026/42' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/155853?localConsulta=2&cod=1757' target='_blank'>🌐 Portal de Origem</a>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">38. Edital de Chamamento Público nº CRE-007/2026 — MUNICIPIO DE JIQUIRICA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Jiquiriçá - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/05/2027 às 08:30</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 528.720,00</div>
+                <div><span class="info-label">Publicação:</span> 07/05/2026 às 08:50</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> [Portal de Compras Públicas] - Chamamento Público para credenciamento de pessoas jurídicas interessadas no fornecimento de gêneros alimentícios/lanches para atender as necessidades das Secretarias Municipais.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13764659000166/2026/69' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://www.portaldecompraspublicas.com.br/processos/BA/Prefeitura-Municipal-de-Jiquirica-3752/CRED-CRE-007-2026-2026-477680' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">35. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE CORRENTINA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Correntina - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">31/03/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 693.500,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 30/04/2026 às 08:49</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> credenciamento de pessoas físicas e/ou jurídicas para o fornecimento de refeições prontas, marmitas (quentinhas) e kit buffet, em atendimento às demandas das diversas Secretarias e Fundos Municipais, pelo período de 12 (doze) meses, conforme condições estabelecidas neste Edital e seus anexos.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/14221741000107/2026/43' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">36. Edital de Chamamento Público nº CD 007/2026 — MUNICIPIO DE JUAZEIRO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Juazeiro - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/04/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 8.540.086,35</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 09/04/2026 às 14:03</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Coffee Break</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas jurídicas especializadas na prestação de serviços de buffet, sob demanda, abrangendo refeições prontas, coffee break, café da manhã, kit-lanche, doces e salgados, para atendimento das necessidades institucionais da Secretaria Municipal de Educação de Juazeiro/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13915632000127/2026/87' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://bllcompras.com/Process/ProcessView?param1=[gkz]WUDveHASd//pR/Zj9FaDCTzY2S5TLU7Nnj8QjKWxR5hR301pChEOL9vNIv7DuaDbuRObZapqVoT8zgfkRA5AXynoOl00SSxQGnRn519hu7k=' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">37. Edital de Chamamento Público nº 100273858/2026 — MUNICIPIO DE IRECE</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Irecê - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">17/04/2027 às 14:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 303.675,72</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 14/04/2026 às 11:56</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Catering</div>
-        <div class="objeto-text"><b>Objeto:</b> Constitui objeto do presente a fixação de normas e regras para cadastramento e posterior credenciamento/contratação objetivando a prestação de serviços de planejamento, organização, coordenação e estruturação de eventos institucionais e serviço de catering para camarim para atender as demandas do Município de Irecê/BA, nos termos e condições estabelecidos neste edital e seus anexos. / Edital de Credenciamento nº 007.2026.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13715891000104/2026/57' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">38. Edital de Chamamento Público nº CP 004/2026/2026 — MUNICIPIO DE IBOTIRAMA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ibotirama - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/05/2027 às 16:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 287.865,10</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 06/05/2026 às 16:08</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de pessoas jurídicas especializadas para fornecimento de gêneros alimentícios, compreendendo bolos, salgados, lanches prontos, sucos concentrados e itens correlatos, destinados ao atendimento das demandas institucionais, administrativas, educacionais, sociais, culturais, protocolares e operacionais promovidas ou apoiadas pela Administração Pública Municipal de Ibotirama/BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13798152000123/2026/66' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/159002?localConsulta=2&cod=1072' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">39. Edital de Chamamento Público nº 11700CR0032023/2023 — INSTITUTO DE RADIODIFUSAO EDUCATIVA DA BAHIA IRDEB</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">08/05/2027 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 33,47</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 08/05/2026 às 12:01</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação para eventos, Buffet, Buffet para eventos, Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PRESTAÇÃO DE SERVIÇOS DE BUFFET E ALIMENTAÇÃO PRONTA – (KIT LANCHE) POR MEIO DE CREDENCIAMENTO, PARA ATENDER AS NECESSIDADES DOS PROFISSIONAIS ENVOLVIDOS NAS COBERTURAS DE EVENTOS EXTERNOS E DAR SUPORTE À PROGRAMAS, PROJETOS E AÇÕES NO ÂMBITO DO IRDEB.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13420609000161/2023/1' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">40. Edital de Chamamento Público nº CRE-007/2026 — MUNICIPIO DE JIQUIRICA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Jiquiriçá - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">11/05/2027 às 08:30</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 528.720,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 07/05/2026 às 08:50</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> [Portal de Compras Públicas] - Chamamento Público para credenciamento de pessoas jurídicas interessadas no fornecimento de gêneros alimentícios/lanches para atender as necessidades das Secretarias Municipais.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13764659000166/2026/69' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://www.portaldecompraspublicas.com.br/processos/BA/Prefeitura-Municipal-de-Jiquirica-3752/CRED-CRE-007-2026-2026-477680' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">41. Edital de Chamamento Público nº 100279758/2026 — MUNICIPIO DE PARAMIRIM</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Paramirim - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/05/2027 às 17:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 782.980,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 13/05/2026 às 11:52</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Coffee Break, Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> PROCEDIMENTO AUXILIAR DE CREDENCIAMENTO PARA 
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">39. Edital de Chamamento Público nº 100279758/2026 — MUNICIPIO DE PARAMIRIM</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Paramirim - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">13/05/2027 às 17:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 782.980,00</div>
+                <div><span class="info-label">Publicação:</span> 13/05/2026 às 11:52</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet, Coffee Break, Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> PROCEDIMENTO AUXILIAR DE CREDENCIAMENTO PARA 
 FORNECIMENTO DE REFEIÇÕES PRONTAS, SUCOS NATURAIS E CAFÉ DA 
 MANHÃ, PARA ATENDER ÀS NECESSIDADES DA PREFEITURA MUNICIPAL DE 
 PARAMIRIM/BA-BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13675491000112/2026/290' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13675491000112/2026/290' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">42. Edital de Chamamento Público nº 100281652/2026 — MUNICIPIO DE IRECE</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">40. Edital de Chamamento Público nº 100281652/2026 — MUNICIPIO DE IRECE</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Irecê - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">25/05/2027 às 03:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 1.006.032,00</div>
+                <div><span class="info-label">Publicação:</span> 21/05/2026 às 09:37</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> Constitui objeto do presente a fixação de normas e regras para cadastramento e posterior credenciamento/contratação objetivando a prestação de serviços de buffet completo, fornecimento de refeições, salgados, bolos e pães destinados ao atendimento de eventos institucionais promovidos ou apoiados pelo Município de Irecê/BA, nos termos e condições estabelecidos neste edital e seus anexos.  / Edital de Credenciamento nº 011.2026</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13715891000104/2026/113' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Irecê - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">25/05/2027 às 03:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 1.006.032,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 21/05/2026 às 09:37</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">41. Edital de Chamamento Público nº 005/2026 — MUNICIPIO DE CAPIM GROSSO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Capim Grosso - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/05/2027 às 08:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 3.729.300,00</div>
+                <div><span class="info-label">Publicação:</span> 27/05/2026 às 17:27</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Alimentação, Alimentação para eventos</div>
+            <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE PESSOAS FÍSICAS E JURÍDICAS PARA PRESTAÇÃO DE SERVIÇO DE ARTISTAS, BANDAS, GRUPOS MUSICAIS NOS VARIADOS ESTILOS, APRESENTAÇÕES DE TEATRO, CIRCO E OUTRAS MANIFESTAÇÕES CULTURAIS COM VISTAS A REALIZAREM APRESENTAÇÕES PÚBLICAS, DURANTE OS EVENTOS E PROJETOS PROMOVIDOS OU APOIADOS PELAS SECRETARIAS DO MUNICÍPIO DE CAPIM GROSSO- BAHIA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13230982000150/2026/96' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet, Buffet para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> Constitui objeto do presente a fixação de normas e regras para cadastramento e posterior credenciamento/contratação objetivando a prestação de serviços de buffet completo, fornecimento de refeições, salgados, bolos e pães destinados ao atendimento de eventos institucionais promovidos ou apoiados pelo Município de Irecê/BA, nos termos e condições estabelecidos neste edital e seus anexos.  / Edital de Credenciamento nº 011.2026</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13715891000104/2026/113' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">42. Edital de Chamamento Público nº 5/2026 — MUNICIPIO DE IPIAU</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Ipiaú - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/05/2027 às 23:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 255.015,78</div>
+                <div><span class="info-label">Publicação:</span> 28/05/2026 às 10:49</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> O objeto do presente Chamamento Público para CREDENCIAMENTO DE EMPRESAS CLASSIFICADAS COMO HOTEL OU POUSADA LOCALIZADAS NO MUNICÍPIO DE IPIAÚ/BA E EM MUNICÍPIOS SITUADOS EM RAIO DE ATÉ 100 KM DA SEDE MUNICIPAL, PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM, atendendo as necessidades das Secretarias e demais órgãos do Município de Ipiaú/BA</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13701651000150/2026/34' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">43. Edital de Chamamento Público nº 005/2026 — MUNICIPIO DE CAPIM GROSSO</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">43. Edital de Chamamento Público nº FMS - 001/2026 — MUNICIPIO DE ITABERABA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Itaberaba - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">01/06/2027 às 18:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 230.574,10</div>
+                <div><span class="info-label">Publicação:</span> 28/05/2026 às 09:02</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de Pessoas Jurídicas para fornecimento de refeições e lanches, destinadas a atender às demandas das unidades, programas e serviços vinculados ao Fundo Municipal de Saúde de Itaberaba, Estado da Bahia.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13719646000175/2026/92' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='sai.io.org.br/site/PublicadoPncp/162289?localConsulta=2&cod=1688' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Capim Grosso - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/05/2027 às 08:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 3.729.300,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 27/05/2026 às 17:27</div>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">44. Edital de Chamamento Público nº 011/2026 — MUNICIPIO DE BOQUIRA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Boquira - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/06/2027 às 00:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 406.250,00</div>
+                <div><span class="info-label">Publicação:</span> 17/06/2026 às 17:04</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Buffet</div>
+            <div class="objeto-text"><b>Objeto:</b> [LICITANET] - CREDENCIAMENTO DE PESSOAS FÍSICAS E/OU JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM HOTÉIS, POUSADAS E ESTABELECIMENTOS CONGÊNERES, BEM COMO PARA O FORNECIMENTO DE REFEIÇÕES E MARMITEX, DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DA ADMINISTRAÇÃO MUNICIPAL DE BOQUIRA-BA.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13780770000146/2026/57' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                <a href='https://licitanet.com.br/sessao/190281' target='_blank'>🌐 Portal de Origem</a>
+            </div>
         </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Alimentação, Alimentação para eventos</div>
-        <div class="objeto-text"><b>Objeto:</b> CREDENCIAMENTO DE PESSOAS FÍSICAS E JURÍDICAS PARA PRESTAÇÃO DE SERVIÇO DE ARTISTAS, BANDAS, GRUPOS MUSICAIS NOS VARIADOS ESTILOS, APRESENTAÇÕES DE TEATRO, CIRCO E OUTRAS MANIFESTAÇÕES CULTURAIS COM VISTAS A REALIZAREM APRESENTAÇÕES PÚBLICAS, DURANTE OS EVENTOS E PROJETOS PROMOVIDOS OU APOIADOS PELAS SECRETARIAS DO MUNICÍPIO DE CAPIM GROSSO- BAHIA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13230982000150/2026/96' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">45. Edital de Chamamento Público nº 8/2026 — BAHIA TRIBUNAL DE JUSTICA</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Salvador - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/07/2027 às 18:00</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 635.976,00</div>
+                <div><span class="info-label">Publicação:</span> 06/07/2026 às 15:59</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> Credenciamento de interessados na prestação de serviços no ramo de alimentação, com a finalidade de fornecimento de refeições tipo marmitex (almoço, jantar) e kit lanches para atender às sessões do Tribunal do Júri na Comarca de Entrância Final de Feira de Santana, em conformidade com as disposições do Termo de Referência e do Edital e seus anexos.</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13100722000160/2026/54' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">44. Edital de Chamamento Público nº 5/2026 — MUNICIPIO DE IPIAU</div>
-            <span class="badge badge-outros">Credenciamento</span>
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">46. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE GENTIO DO OURO</div>
+                <span class="badge badge-outros">Credenciamento</span>
+            </div>
+            <div class="grid-info">
+                <div><span class="info-label">Município:</span> Gentio do Ouro - BA</div>
+                <div><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">20/07/2027 às 23:59</span></div>
+                <div><span class="info-label">Valor Estimado:</span> R$ 474.068,00</div>
+                <div><span class="info-label">Publicação:</span> 20/07/2026 às 08:48</div>
+            </div>
+            <div><span class="info-label">Termos Relacionados:</span> Lanches</div>
+            <div class="objeto-text"><b>Objeto:</b> credenciamento para o fornecimento, sob demanda, de refeições prontas tipo quentinha, selfservice, lanches e salgados diversos, destinados ao atendimento das necessidades das diversas Secretarias da Prefeitura Municipal de Gentio do Ouro</div>
+            <div class="links-bar">
+                <a href='https://pncp.gov.br/app/editais/13879390000163/2026/66' target='_blank'>🔗 Abrir Edital no PNCP</a>
+                
+            </div>
         </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Ipiaú - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">27/05/2027 às 23:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 255.015,78</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 28/05/2026 às 10:49</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> O objeto do presente Chamamento Público para CREDENCIAMENTO DE EMPRESAS CLASSIFICADAS COMO HOTEL OU POUSADA LOCALIZADAS NO MUNICÍPIO DE IPIAÚ/BA E EM MUNICÍPIOS SITUADOS EM RAIO DE ATÉ 100 KM DA SEDE MUNICIPAL, PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM, atendendo as necessidades das Secretarias e demais órgãos do Município de Ipiaú/BA</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13701651000150/2026/34' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">45. Edital de Chamamento Público nº FMS - 001/2026 — MUNICIPIO DE ITABERABA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Itaberaba - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">01/06/2027 às 18:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 230.574,10</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 28/05/2026 às 09:02</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de Pessoas Jurídicas para fornecimento de refeições e lanches, destinadas a atender às demandas das unidades, programas e serviços vinculados ao Fundo Municipal de Saúde de Itaberaba, Estado da Bahia.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13719646000175/2026/92' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='sai.io.org.br/site/PublicadoPncp/162289?localConsulta=2&cod=1688' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">46. Edital de Chamamento Público nº 011/2026 — MUNICIPIO DE BOQUIRA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Boquira - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">14/06/2027 às 00:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 406.250,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 17/06/2026 às 17:04</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Buffet</div>
-        <div class="objeto-text"><b>Objeto:</b> [LICITANET] - CREDENCIAMENTO DE PESSOAS FÍSICAS E/OU JURÍDICAS PARA PRESTAÇÃO DE SERVIÇOS DE HOSPEDAGEM EM HOTÉIS, POUSADAS E ESTABELECIMENTOS CONGÊNERES, BEM COMO PARA O FORNECIMENTO DE REFEIÇÕES E MARMITEX, DESTINADOS AO ATENDIMENTO DAS NECESSIDADES DA ADMINISTRAÇÃO MUNICIPAL DE BOQUIRA-BA.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13780770000146/2026/57' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            <a href='https://licitanet.com.br/sessao/190281' target='_blank'>🌐 Portal de Origem</a>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">47. Edital de Chamamento Público nº 8/2026 — BAHIA TRIBUNAL DE JUSTICA</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Salvador - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">07/07/2027 às 18:00</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 635.976,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 06/07/2026 às 15:59</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> Credenciamento de interessados na prestação de serviços no ramo de alimentação, com a finalidade de fornecimento de refeições tipo marmitex (almoço, jantar) e kit lanches para atender às sessões do Tribunal do Júri na Comarca de Entrância Final de Feira de Santana, em conformidade com as disposições do Termo de Referência e do Edital e seus anexos.</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13100722000160/2026/54' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="card-header">
-            <div class="card-title">48. Edital de Chamamento Público nº 002/2026 — MUNICIPIO DE GENTIO DO OURO</div>
-            <span class="badge badge-outros">Credenciamento</span>
-        </div>
-        <div class="grid-info">
-            <div class="info-row"><span class="info-label">Município:</span> Gentio do Ouro - BA</div>
-            <div class="info-row"><span class="info-label">Sessão / Encerramento:</span> <span class="enc-date">20/07/2027 às 23:59</span></div>
-            <div class="info-row"><span class="info-label">Valor Estimado:</span> R$ 474.068,00</div>
-            <div class="info-row"><span class="info-label">Publicação:</span> 20/07/2026 às 08:48</div>
-        </div>
-        <div class="info-row"><span class="info-label">Termos Relacionados:</span> Lanches</div>
-        <div class="objeto-text"><b>Objeto:</b> credenciamento para o fornecimento, sob demanda, de refeições prontas tipo quentinha, selfservice, lanches e salgados diversos, destinados ao atendimento das necessidades das diversas Secretarias da Prefeitura Municipal de Gentio do Ouro</div>
-        <div class="links-bar">
-            <a href='https://pncp.gov.br/app/editais/13879390000163/2026/66' target='_blank'>🔗 Abrir Edital no PNCP</a>
-            
-        </div>
-    </div>
-    
-</body>
-</html>
+        </body></html>
