@@ -1,0 +1,6 @@
+ID,IP,Usuario,País,Estado/Região,Cidade,Latitude,Longitude,Provedor (ISP)
+1,8.8.8.8,admin,United States,Virginia,Ashburn,39.03,-77.5,Google LLC
+2,1.1.1.1,convidado,Australia,Queensland,South Brisbane,-27.4766,153.0166,"Cloudflare, Inc"
+3,208.67.222.222,sistema,United States,California,San Jose,37.4084,-121.954,"Cisco OpenDNS, LLC"
+4,200.147.67.142,user1,Brazil,Rio de Janeiro,Rio de Janeiro,-22.9068,-43.1729,Universo Online S.A.
+5,8.20.247.20,user2,United States,New Jersey,Clifton,40.8533,-74.1784,Flexential Corp

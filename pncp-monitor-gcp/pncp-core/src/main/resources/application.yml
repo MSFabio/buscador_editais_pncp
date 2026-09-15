@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+gcp:
+  project-id: ${GCP_PROJECT_ID:meu-projeto-pncp}
+  location: ${GCP_LOCATION:us-central1}
+
+gemini:
+  model: gemini-2.0-flash
+  batch-size: 10
+  temperature: 0.0
+
+notificacao:
+  sendgrid-api-key: ${SENDGRID_API_KEY:}
+  remetente: ${EMAIL_REMETENTE:noreply@pncpmonitor.com}
