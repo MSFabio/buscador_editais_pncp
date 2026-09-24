@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: office2md
+Version: 1.0.0
+Summary: Biblioteca para transformar arquivos Word (.docx) e Excel (.xlsx, .xls) em Markdown limpo para LLMs e Gemini.
+Author: Antigravity
+Requires-Python: >=3.8
+Requires-Dist: python-docx>=1.1.0
+Requires-Dist: openpyxl>=3.1.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: xlrd>=2.0.0
+Requires-Dist: mammoth>=1.8.0
+Requires-Dist: markdownify>=0.12.0
+Requires-Dist: rich>=13.0.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

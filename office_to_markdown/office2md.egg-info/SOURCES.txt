@@ -1,0 +1,13 @@
+setup.py
+office2md/__init__.py
+office2md/__main__.py
+office2md/cli.py
+office2md/converter.py
+office2md/excel.py
+office2md/word.py
+office2md.egg-info/PKG-INFO
+office2md.egg-info/SOURCES.txt
+office2md.egg-info/dependency_links.txt
+office2md.egg-info/entry_points.txt
+office2md.egg-info/requires.txt
+office2md.egg-info/top_level.txt

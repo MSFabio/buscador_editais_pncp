@@ -1,0 +1,2181 @@
+
+--- Page 1 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COMENTÁRIOS DO GESTOR 
+DPGE - Defensoria Pública Geral do Estado do Rio de Janeiro 
+ 
+ 
+ 
+  
+--- Page 2 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+1. Introdução 
+Este documento orienta a manifestação da DPGE na fase de comentários do 
+gestor. Conforme o caso, a manifestação poderá tratar dos achados e situações de 
+inadequação registrados no Relatório Individual Preliminar, dos itens avaliados como 
+não conformes na etapa de avaliação das evidências ou da ausênc ia de resposta 
+válida ao questionário iGovTI 2026. 
+A manifestação deve ser apresentada no questionário eletrônico de 
+comentários do gestor , observando -se apenas as seções disponibilizadas para a 
+organização. 
+Quando houver achados, a organização deverá informar se concorda ou 
+discorda de cada situação apontada e, quando couber, apresentar comentários, 
+justificativas e documentação comprobatória. Nas questões-base indicadas na seção 
+de reavaliação de evidências,  a organização poderá apresentar esclarecimentos, 
+retificações ou evidência suplementar para reanálise dos itens avaliados como não 
+conformes. Quando não houver resposta válida ao questionário iGovTI 2026, a 
+manifestação deverá se limitar a esclarecimentos , comprovação de eventual envio 
+anterior ou justificativa para a ausência de resposta. 
+A etapa de comentários do gestor é desejável, mas tem caráter opcional para 
+a organização auditada . Sua finalidade é permitir que o gestor apresente 
+esclarecimentos sobre fatos, retifique informações, informe providências adotadas ou 
+planejadas e encaminhe documentação complementar pertinente. 
+Considerando a natureza da solicitação, relativa aos comentários dos gestores 
+sobre achados de auditoria, o prazo para finalização e envio do questionário é 
+improrrogável, conforme o item 8.4 do Manual de Auditoria do TCE-RJ, e se encerra 
+em 10/07/2026. 
+Recomenda-se que o questionário seja preenchido com antecedência. 
+Eventuais solicitações de esclarecimento poderão ser encaminhadas para o e -mail 
+auditoriati@tcerj.tc.br.  
+--- Page 3 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+ 
+ 
+Achado 2 – Governança de TIC insuficiente para avaliar, dirigir 
+e monitorar a tecnologia da informação. 
+O Relatório Individual Preliminar apresenta as situações que fundamentaram 
+este achado, as evidências consideradas, os critérios aplicados e as propostas de 
+encaminhamento formuladas pela Equipe de Auditoria. 
+A DPGE poderá apresentar comentários sobre as situações abaixo, inclusive 
+quanto às providências adotadas ou planejadas, às propostas de encaminhamento e 
+às consequências práticas de sua implementação. 
+ 
+  
+--- Page 4 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Modelo básico de governança e gestão de TIC inexistente ou insuficiente 
+quanto a papéis, responsabilidades, objetivos, indicadores, metas ou acompanhamento.” apontada 
+no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 5 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Comitê de TIC ou instância equivalente sem evidências suficientes de 
+atuação efetiva.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 
+ 
+--- Page 6 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Achado 3 – Planejamento de TIC insuficiente para orientar a 
+gestão, o orçamento e as contratações de TIC 
+O Relatório Individual Preliminar apresenta as situações que fundamentaram 
+este achado, as evidências consideradas, os critérios aplicados e as propostas de 
+encaminhamento formuladas pela Equipe de Auditoria. 
+A DPGE poderá apresentar comentários sobre as situações abaixo, inclusive 
+quanto às providências adotadas ou planejadas, às propostas de encaminhamento e 
+às consequências práticas de sua implementação. 
+ 
+  
+--- Page 7 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Inexistência ou fragilidade do processo formal de planejamento de TIC.” 
+apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 8 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Ausência de aprovação formal do plano de TIC.” apontada no Relatório 
+Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 9 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Plano de TIC sem alinhamento adequado ao planejamento institucional.” 
+apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 10 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Plano de TIC sem vínculo demonstrado com orçamento e contratações de 
+TIC” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 11 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Ausência de acompanhamento, revisão ou atualização periódica do plano 
+de TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 
+ 
+--- Page 12 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Achado 4 – Capacidade institucional insuficiente para 
+sustentar a gestão de TIC e segurança da informação 
+O Relatório Individual Preliminar apresenta as situações que fundamentaram 
+este achado, as evidências consideradas, os critérios aplicados e as propostas de 
+encaminhamento formuladas pela Equipe de Auditoria. 
+A DPGE poderá apresentar comentários sobre as situações abaixo, inclusive 
+quanto às providências adotadas ou planejadas, às propostas de encaminhamento e 
+às consequências práticas de sua implementação. 
+ 
+  
+--- Page 13 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “A organização não definiu o quantitativo necessário de pessoal de TIC e 
+segurança da informação.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 14 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Ausência de cargos, funções, perfis ou ocupações específicas de TIC e 
+segurança da informação.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 15 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Perfis profissionais de TIC e segurança da informação inexistentes, 
+insuficientes ou não utilizados na escolha de gestores.” apontada no Relatório Individual, a 
+organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 16 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Lacunas de competências dos colaboradores e gestores de TIC e segurança 
+da informação não são identificadas ou tratadas.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 17 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Dependência externa relevante sem capacidade interna suficiente para 
+coordenar e fiscalizar a TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 
+ 
+--- Page 18 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Achado 5 – Gestão de serviços de TIC insuficiente para 
+assegurar controle sobre serviços, ativos e incidentes 
+O Relatório Individual Preliminar apresenta as situações que fundamentaram 
+este achado, as evidências consideradas, os critérios aplicados e as propostas de 
+encaminhamento formuladas pela Equipe de Auditoria. 
+A DPGE poderá apresentar comentários sobre as situações abaixo, inclusive 
+quanto às providências adotadas ou planejadas, às propostas de encaminhamento e 
+às consequências práticas de sua implementação. 
+ 
+  
+--- Page 19 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Inexistência ou insuficiência do catálogo de serviços de TIC.” apontada no 
+Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 20 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Ausência ou fragilidade na definição e no monitoramento de níveis mínimos 
+de serviço de TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 21 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Inexistência ou fragilidade do inventário de ativos de TIC.” apontada no 
+Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 22 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Ausência ou fragilidade do processo de gestão de configuração.” apontada 
+no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 23 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Inexistência ou fragilidade do processo de gestão de incidentes de TIC.” 
+apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 
+ 
+--- Page 24 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Achado 6 – Fragilidades na governança técnica da fase 
+preparatória das contratações de TIC 
+O Relatório Individual Preliminar apresenta as situações que fundamentaram 
+este achado, as evidências consideradas, os critérios aplicados e as propostas de 
+encaminhamento formuladas pela Equipe de Auditoria. 
+A DPGE poderá apresentar comentários sobre as situações abaixo, inclusive 
+quanto às providências adotadas ou planejadas, às propostas de encaminhamento e 
+às consequências práticas de sua implementação. 
+ 
+  
+--- Page 25 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Inexistência ou fragilidade de processo formal e padronizado para 
+contratações de TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 26 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Contratações de TIC sem análise prévia e aprovação técnica obrigatória da 
+área de TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 27 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação  “Contratações de TIC sem alinhamento demonstrado ao planejamento de 
+TIC, ao plano de contratações ou à proposta orçamentária.” apontada no Relatório Individual, a 
+organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 28 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+No que tange à situação “Contratações de TIC sem equipe de planejamento formalmente designada 
+e com participação técnica de TIC.” apontada no Relatório Individual, a organização: 
+ Concorda e já atendeu às propostas de encaminhamento 
+ Concorda e já está atendendo às propostas de encaminhamento  
+ Concorda, mas ainda não adotou nenhuma medida para atender às propostas de encaminhamento  
+ Discorda da sinalização de inadequação 
+ 
+Caso concorde, total ou parcialmente, com a situação apontada será apresentada a caixa de 
+texto a seguir para que o gestor possa registrar comentários, caso julgue como necessário.  
+ 
+Caso desejável, encaminhem seus comentários contemplando a perspectiva da organização e as ações 
+corretivas que pretendem tomar, bem como avaliação sobre as propostas de determinação e/ou 
+recomendação formuladas, informando sobre as consequências práticas de sua implementação e 
+eventuais alternativas: 
+ 
+ 
+Caso discorde da situação apontada será apresentada a caixa de texto a seguir para que o 
+gestor possa apresentar as razões da sua discordância e o envio de documentos.  
+Ajude-nos a entender por que você escolheu a opção acima: 
+ 
+ 
+Caso necessário, envie documentos que evidenciem suas justificativas 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+--- Page 29 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Reavaliação de evidências 
+Esta seção permite que a organização apresente comentários, 
+esclarecimentos, retificações ou evidência suplementar para reavaliação de questões 
+que tiveram pelo menos um item ou subitem classificado como não conforme na etapa 
+de avaliação das evidências. 
+Consulte no Relatório Individual Preliminar e nos anexos correspondentes os 
+itens específicos avaliados como não conformes. A apresentação de nova evidência 
+é opcional e deve se limitar a arquivo em formato PDF ou ZIP. 
+ 
+  
+--- Page 30 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 1001. A alta administração estabeleceu modelo de 
+gestão de tecnologia da informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q1001 - d) a organização designa responsáveis de cada área de negócio para a gestão dos 
+respectivos sistemas informatizados 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que não foram designados formalmente responsáveis de cada 
+área de negócio para a gestão dos sistemas informatizados. Embora a documentação 
+estruture a área de TI, não foi apresentado ato administrativo, portaria ou registro que  
+vincule áreas finalísticas à gestão específica de sistemas sob sua competência. A ausência 
+desta designação nominal constitui lacuna que impede o atendimento ao requisito.  
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 31 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 1002. A alta administração monitora o desempenho 
+da gestão de tecnologia da informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q1002 - A alta administração monitora o desempenho da gestão de tecnologia da 
+informação. 
+Resposta 
+informada pelo 
+auditado 
+Adota parcialmente. 
+Avaliação  A avaliação realizada indica não conformidade. O documento apresentado, 'Metodologia 
+de Gestão de Projetos da STIC', detalha normas procedimentais para projetos, não 
+constituindo evidência de monitoramento do desempenho global da gestão de TI pela alta 
+administração. A evidência é insuficiente por se limitar a documento normativo, sem 
+demonstrar a prática de monitoramento. Ausentes registros, atas de reuniões, relatórios 
+de desempenho ou painéis que comprovem a atuação da alta administração.  
+ 
+Item avaliado Q1002 - b) há acompanhamento na execução dos planos vigentes quanto ao alcance das 
+metas estabelecidas 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A avaliação realizada indica não conformidade. O conteúdo apresentado refere -se 
+exclusivamente à metodologia de gestão de projetos, não demonstrando o 
+acompanhamento da execução de planos vigentes da área de TI nem o monitoramento do 
+alcance de metas estabelecidas. A evidência é insuficiente por restringir -se a fluxogramas 
+de processos, sem comprovação de acompanhamento efetivo. Inexistentes planos de TI 
+com metas, relatórios de execução ou registros que validem o monitoramento de metas 
+estratégicas. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 32 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2101. A organização executa processo de 
+planejamento de tecnologia da informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2101 - A organização executa processo de planejamento de tecnologia da informação.  
+Resposta 
+informada pelo 
+auditado 
+Adota parcialmente. 
+Avaliação  A evidência apresentada consiste exclusivamente no Plano Anual de Contratações (PCA) 
+2026. Embora o documento consolide demandas de tecnologia, ele constitui um plano 
+orçamentário e de aquisições, não suprindo a necessidade de um processo de 
+planejamento estratégico e tático de tecnologia da informação formalmente estabelecido. 
+ 
+Item avaliado Q2101 - b) a organização estabeleceu critérios para orientar a seleção e a priorização das 
+iniciativas de TI (projetos e ações) e os mantêm atualizados 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora o PCA apresente uma coluna de "Grau de Prioridade da Contratação", a evidência 
+não descreve a metodologia, os parâmetros ou a norma que fundamentam tais 
+classificações. Não há registro de critérios objetivos para a seleção ou priorização de 
+iniciativas, nem evidência de sua revisão periódica. 
+ 
+Item avaliado Q2101 - c) as análises de benefícios, de custos e de riscos subsidiam as decisões 
+relacionadas à seleção e à priorização das iniciativas de TI (projetos e ações)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  As justificativas presentes no PCA descrevem necessidades operacionais genéricas, 
+carecendo de análises estruturadas de viabilidade, custo -benefício ou risco. O documento 
+não demonstra que tais estudos subsidiaram a seleção ou priorização das iniciativas 
+constantes no plano. 
+ 
+Item avaliado Q2101 - d) o processo de planejamento de TI está formalizado (a organização instituiu 
+norma interna, guia ou instrumento similar com orientações quanto à execução do 
+processo e definição de responsabilidades) 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O Plano Anual de Contratações não supre a necessidade de formalização normativa do 
+processo de planejamento de TI. Não foram apresentadas normas internas, manuais ou 
+procedimentos operacionais que definam o ciclo de planejamento de TI, suas etapas ou a 
+responsabilidade dos atores envolvidos. 
+ 
+--- Page 33 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 34 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2102. A organização possui plano de tecnologia da 
+informação vigente. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2102 - A organização possui plano de tecnologia da informação vigente.  
+Resposta 
+informada pelo 
+auditado 
+Adota em maior parte ou totalmente. 
+Avaliação  O item não foi atendido, visto que a evidência apresentada é um Plano Anual de 
+Contratações (PCA), instrumento de caráter operacional e orçamentário, que não supre as 
+exigências de um Plano Diretor de Tecnologia da Informação (PDTIC). O documento não 
+detalha os componentes estruturantes de um plano de TI, como objetivos estratégicos, 
+metas, governança e mecanismos de acompanhamento. Existe a lacuna da inexistência de 
+um documento formal que atenda aos requisitos de um plano de TI vigente.  
+ 
+Item avaliado Q2102 - a) o plano de tecnologia da informação (plano de TI) é aprovado pelo dirigente 
+máximo da organização ou por dirigente ou colegiado que integra a alta administração  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A conformidade não pode ser atestada, uma vez que a inexistência de um Plano de TI 
+vigente impede a verificação de sua aprovação pela alta administração. Não foram 
+apresentados documentos, como atas, portarias ou resoluções, que formalizem a 
+aprovação de um plano estratégico de tecnologia. A lacuna principal é a ausência do plano 
+de TI e do respectivo ato formal de aprovação. 
+ 
+Item avaliado Q2102 - d) as iniciativas de TI (projetos e ações) constantes do plano de TI alinham -se aos 
+objetivos e iniciativas definidos no planejamento institucional (como PPA, planos 
+estratégicos, planos setoriais e plano de governo, no caso de municípios), bem com o, 
+quando aplicável, às estratégias e diretrizes estabelecidas por instâncias superiores de 
+governança (como a Estratégia Nacional de Tecnologia da Informação e Comunicação do 
+Poder Judiciário - ENTIC-JUD, normas e orientações do SETIC/PRODERJ (para órgãos  
+estaduais) ou instâncias de governança equivalentes no âmbito municipal)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O requisito não foi atendido, pois o documento enviado não demonstra o alinhamento das 
+iniciativas de tecnologia com o planejamento institucional ou diretrizes de instâncias 
+superiores de governança. O Plano Anual de Contratações lista itens operacionais s em 
+estabelecer vínculos explícitos ou matrizes de alinhamento com instrumentos como o PPA, 
+plano estratégico ou diretrizes superiores. Há lacuna relativa à demonstração de conexão 
+entre as iniciativas de TI e os objetivos estratégicos da organização. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+--- Page 35 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 36 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2201. A organização elabora um catálogo de serviços 
+de tecnologia da informação e monitora níveis de serviço. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2201 - A organização elabora um catálogo de serviços de tecnologia da informação e 
+monitora níveis de serviço. 
+Resposta 
+informada pelo 
+auditado 
+Adota em maior parte ou totalmente. 
+Avaliação  A Equipe de Auditoria avalia que a prática não foi evidenciada. Os documentos 
+apresentados referem-se estritamente aos processos de Gerenciamento de Incidente e de 
+Crise, não constituindo um catálogo de serviços de TI. Não foram apresentados registros 
+que demonstrem o monitoramento contínuo dos níveis de serviço acordados. A evidência 
+é insuficiente para comprovar a existência dos elementos solicitados.  
+ 
+Item avaliado Q2201 - a) o catálogo contém as metas definidas para cada serviço (p. ex.: prazos de 
+entrega, horários de serviço e de suporte, bem como pontos de contato para solicitação 
+do serviço, envio de sugestões, esclarecimento de dúvidas e reporte de incidentes)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que o critério não foi atendido. A documentação enviada 
+descreve apenas o fluxo de atendimento de incidentes, sem apresentar um catálogo de 
+serviços contendo metas de entrega, horários ou pontos de contato por serviço. A 
+evidência analisada limita-se a procedimentos operacionais internos. 
+ 
+Item avaliado Q2201 - b) o catálogo está atualizado e as informações que nele constam são compatíveis 
+com os Acordos de Níveis de Serviço (ANS) estabelecidos pela área de tecnologia da 
+informação e as áreas de negócio da organização 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que o critério não foi atendido. Não foram disponibilizados o 
+catálogo de serviços nem os instrumentos formais de Acordo de Nível de Serviço (ANS) 
+para conferência. Sem estes documentos, é inviável verificar a atualização do ca tálogo ou 
+a compatibilidade com acordos estabelecidos com as áreas de negócio.  
+ 
+Item avaliado Q2201 - c) o catálogo é de fácil acesso e está amplamente disponível a seus usuários e às 
+equipes de suporte 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que o critério não foi atendido. Embora os documentos citem 
+canais de atendimento para registro de incidentes, não há comprovação da existência ou 
+da disponibilidade de um catálogo de serviços para consulta por parte dos usuári os e das 
+equipes de suporte. A evidência fornecida é insuficiente para demonstrar o acesso.  
+--- Page 37 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+ 
+Item avaliado Q2201 - d) são formalizados ANS contendo metas de nível de serviço acordadas com 
+representantes das áreas de negócio clientes 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que o critério não foi atendido. O documento menciona um 
+edital como referência geral, porém não foram apresentados os termos de ANS 
+formalizados e pactuados com as áreas de negócio. A evidência limita-se a procedimentos 
+internos, carecendo de formalização com os clientes dos serviços. 
+ 
+Item avaliado Q2201 - e) a área de gestão de tecnologia da informação monitora continuamente o 
+alcance dos níveis de serviço estabelecidos nos ANS 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A Equipe de Auditoria avalia que o critério não foi atendido. Os indicadores de 
+desempenho (KPIs) apresentados referem -se exclusivamente ao processo de incidentes, 
+não ao monitoramento dos níveis de serviço contratados (ANS). Não foram apresentados 
+relatórios de acompanhamento ou registros de aferição contínua dos níveis de serviço.  
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 38 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2202. A organização executa processo de gestão de 
+mudanças. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2202 - A organização executa processo de gestão de mudanças. 
+Resposta 
+informada pelo 
+auditado 
+Adota em maior parte ou totalmente. 
+Avaliação  O item não está conforme, pois a evidência fornecida consiste em uma declaração 
+narrativa sem comprovação documental ou registros operacionais. A ausência de normas, 
+procedimentos formalizados ou logs extraídos do sistema mencionado impede a 
+verificação da efetiva execução do processo. Faltam evidências de registros de solicitações, 
+aprovações, planos de mudança ou relatórios de testes. 
+ 
+Item avaliado Q2202 - a) a organização estabeleceu critérios para orientar a aprovação de mudanças, 
+inclusive quanto ao tratamento de casos de exceção (mudanças emergenciais)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O item não está conforme pela inexistência de documentação que comprove a definição 
+de critérios para aprovação ou o fluxo de tratamento de exceções. A evidência citada 
+menciona apenas genericamente a aprovação por responsáveis, sem demonstrar a regra 
+ou o rito de aprovação adotado. Falta a apresentação de normas, fluxogramas ou matrizes 
+de autoridade. 
+ 
+Item avaliado Q2202 - b) mudanças são previamente comunicadas a todas as partes que possam ser 
+afetadas 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O item não está conforme por não haver registros concretos de comunicações enviadas às 
+partes interessadas. A mera declaração de envolvimento das áreas não substitui a 
+necessidade de demonstrar comunicações formais, e -mails ou avisos emitidos 
+previamente às implementações. Faltam registros ou modelos de notificação.  
+ 
+Item avaliado Q2202 - c) identificam-se os serviços e ativos de TI que possam ser afetados pela mudança, 
+de modo a avaliar impactos em níveis de serviços acordados 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O item não está conforme pois a documentação fornecida não descreve ou demonstra a 
+identificação de serviços e ativos impactados. Não há evidência de análises de impacto ou 
+avaliações de risco associadas a mudanças. Falta material que comprove o mapeamento  
+de ativos e serviços nos processos de mudança. 
+ 
+--- Page 39 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Item avaliado Q2202 - d) a realização de cada mudança é precedida de planejamento e testes  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O item não está conforme por absoluta ausência de registros ou evidências de 
+planejamento e testes realizados antes da implementação. A evidência enviada é 
+puramente declarativa e não traz artefatos como planos de teste, evidências de 
+homologação ou registros em ambiente de teste. Falta a comprovação documental do ciclo 
+de planejamento e testes. 
+ 
+Item avaliado Q2202 - e) mudanças executadas são rastreáveis e monitoradas, com vistas à avaliação de 
+sua efetividade e para permitir ações corretivas, no caso de ocorrência de efeitos não 
+identificados nas fases de planejamento e testes 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O item não está conforme, pois não há elementos que comprovem a rastreabilidade ou o 
+monitoramento pós -implementação. A evidência carece de registros de 
+acompanhamento, relatórios de avaliação de efetividade ou evidências de ações 
+corretivas. Falta comprov ação da existência de trilhas de auditoria ou registros de 
+encerramento de mudanças. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 40 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2204. A organização executa processo(s) de gestão de 
+incidentes de serviços de tecnologia da informação e de 
+incidentes de segurança da informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2204 - e) a organização definiu procedimentos e responsabilidades quanto à notificação 
+e ao tratamento das notificações de incidentes de segurança da informação, bem como 
+quanto à adoção de ações emergenciais, diretrizes para escalamento e comunicação 
+interna e externa 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A documentação apresentada não contempla procedimentos específicos para a gestão de 
+incidentes de segurança da informação. Embora exista um 'Processo de Crise' que 
+menciona responsabilidades genéricas para a área de segurança na matriz RACI, não foram 
+apresentadas diretrizes, fluxos ou procedimentos dedicados à notificação, tratamento e 
+resposta a incidentes de segurança da informação. A evidência é insuficiente por não 
+abordar os requisitos específicos de segurança da informação exigidos pelo critério.  
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 41 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2301. A organização executa processo de gestão dos 
+riscos de tecnologia da informação relativos a processos de 
+negócio. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2301 - A organização executa processo de gestão dos riscos de tecnologia da informação 
+relativos a processos de negócio. 
+Resposta 
+informada pelo 
+auditado 
+Adota parcialmente. 
+Avaliação  A organização não demonstra a execução de um processo abrangente de gestão de riscos 
+de tecnologia da informação. A evidência apresentada, Resolução DPGERJ Nº 1356/2025, 
+limita-se a estabelecer um Plano de Resposta a Incidentes de Segurança, o qual constit ui 
+apenas uma etapa reativa de tratamento de riscos de segurança da informação e proteção 
+de dados pessoais. Não há evidência de um processo estruturado que envolva a 
+identificação, análise, avaliação e priorização de riscos de TI voltados aos processos de  
+negócio como um todo. 
+ 
+Item avaliado Q2301 - c) o processo de gestão dos riscos de tecnologia da informação está formalizado 
+(a organização instituiu norma interna, guia ou instrumento similar com orientações 
+quanto à execução do processo e definição de responsabilidades)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O processo de gestão de riscos de tecnologia da informação não está formalizado 
+conforme o critério estabelecido. O documento normativo apresentado restringe -se à 
+gestão de incidentes de segurança, sendo insuficiente para caracterizar a formalização de 
+um processo de gestão de riscos de TI. Não foram apresentados documentos, manuais ou 
+diretrizes que instituam o processo de gestão de riscos de TI de forma ampla e abrangente 
+à organização. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 42 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2302. A organização executa processo de gestão de 
+riscos de segurança da informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2302 - b) a organização trata riscos de segurança da informação com base em um plano 
+de tratamento de riscos 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora a organização conte com arcabouço normativo que prevê a gestão de riscos, não 
+foi apresentado um plano de tratamento de riscos que contenha ações, responsáveis e 
+prazos definidos. O documento referido como plano de resposta a incidentes possui 
+finalidade distinta do plano de tratamento de riscos de segurança da informação. A 
+evidência atual limita -se a previsões de competências, não demonstrando a execução 
+prática do tratamento de riscos. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 43 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2404. A organização possui um responsável pelo 
+tratamento e resposta a incidentes. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2404 - c) o responsável ou equipe (ex.: ETIR) utiliza informações sobre vulnerabilidades 
+para apoiar a prevenção e resposta a incidentes 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência apresentada descreve o fluxo de resposta a incidentes, mas não contempla o 
+uso de informações sobre vulnerabilidades como estratégia de prevenção. O documento é 
+omisso quanto à gestão de vulnerabilidades. Falta evidência de inventário ou anális e de 
+vulnerabilidades integrada à prevenção. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 44 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2501. A organização executa processo de gestão de 
+ativos associados à informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2501 - c) o inventário identifica as informações críticas que os ativos armazenam, 
+processam ou transmitem 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O inventário apresentado não identifica as informações críticas que os ativos armazenam, 
+processam ou transmitem, configurando a não conformidade com o requisito. A análise 
+das colunas da planilha "Inventário (Servidores) -New2" revela apenas dados técnicos  e 
+operacionais de infraestrutura, sem qualquer campo ou registro que indique o nível de 
+criticidade ou a natureza da informação tratada pelos ativos listados. A evidência é 
+insuficiente por omitir o mapeamento das informações críticas associadas aos servi dores. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 45 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2502. A organização executa processo de controle de 
+acesso à informação e aos ativos associados à informação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2502 - A organização executa processo de controle de acesso à informação e aos ativos 
+associados à informação. 
+Resposta 
+informada pelo 
+auditado 
+Adota em maior parte ou totalmente. 
+Avaliação  A evidência apresentada consiste apenas em uma captura de tela do console de 
+administração de diretório, que demonstra a existência de uma estrutura organizacional 
+para gestão de usuários. A evidência é insuficiente para comprovar a execução de um 
+processo consolidado de controle de acesso, uma vez que não apresenta políticas, 
+procedimentos, matrizes de permissão ou registros de atividades que sustentem a 
+existência de um processo estruturado. 
+ 
+Item avaliado Q2502 - a) a organização implementa controles de acesso físicos e lógicos à informação e 
+aos ativos associados à informação que são por ela gerenciados ou custodiados, com vistas 
+a proteger adequadamente a confidencialidade das informações não públicas e a  
+integridade e a disponibilidade das informações consideradas críticas para o negócio  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência demonstra apenas a organização lógica de diretório, sem comprovar a 
+implementação de controles de acesso físicos. Além disso, não há elementos que 
+demonstrem a proteção efetiva da confidencialidade, integridade e disponibilidade das 
+informações consideradas críticas para o negócio. 
+ 
+Item avaliado Q2502 - b) os controles de acesso implementados na organização aplicam o princípio 
+“necessidade de conhecer”, o qual prescreve que deve haver necessidade legítima que 
+justifique o acesso à informação por pessoa, sistema ou entidade, bem como o princípio 
+“privilégio mínimo”, o qual estabelece que o perfil de acesso concedido deve incluir tão 
+somente os poderes necessários para o atendimento das legítimas necessidades  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A imagem da estrutura do diretório é insuficiente para atestar a aplicação dos princípios 
+de privilégio mínimo e necessidade de conhecer. Não foram fornecidas matrizes de acesso, 
+descrições de perfis ou documentos que comprovem a restrição de privilégios c onforme 
+as necessidades funcionais. 
+ 
+Item avaliado Q2502 - c) há controles de acesso lógicos na organização que utilizam autenticação com 
+certificado digital ICP -Brasil, a fim de prover identificação inequívoca de pessoas físicas e 
+jurídicas e comprovação de autoria em transações digitais 
+--- Page 46 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência fornecida não faz menção, nem apresenta configurações ou registros, que 
+comprovem o uso de autenticação via certificado digital ICP -Brasil. O material limita -se à 
+visualização administrativa de objetos em diretório. 
+ 
+Item avaliado Q2502 - d) a organização analisa criticamente, a intervalos regulares, os direitos de acesso 
+lógicos e físicos existentes, com vistas à remoção de direitos que deixaram de ser 
+necessários e para assegurar que privilégios indevidos não foram obtidos  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência é uma representação estática da estrutura de diretório, desprovida de 
+registros que comprovem a revisão periódica de acessos. Não foram apresentadas atas de 
+auditoria, cronogramas de revisão ou relatórios de recertificação que demonstrem a 
+análise crítica contínua dos privilégios concedidos. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 47 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2504. A organização executa atividades de gestão da 
+segurança dos recursos de processamento da informação, 
+inclusive dos recursos de computação em nuvem. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2504 - b) a organização gerencia (inventaria e controla) os softwares instalados nos 
+dispositivos conectados em sua rede 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  As evidências apresentadas concentram -se em atualizações de sistema operacional e não 
+demonstram o inventário ou o controle da totalidade dos softwares instalados nos 
+dispositivos. Falta uma lista ou catálogo de softwares geridos pela organização.  
+ 
+Item avaliado Q2504 - d) a organização implementa configurações seguras em seus ativos de software, 
+de hardware e de rede críticos para o negócio 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O material apresenta informações sobre patching e migração de ativos, mas não 
+demonstra a implementação de padrões de configurações seguras (hardening) ou políticas 
+técnicas de referência. Elemento faltante: documentação de padrões de configuração 
+segura. 
+ 
+Item avaliado Q2504 - f) a organização aplica controles compensatórios para o uso de privilégios 
+administrativos em seus ativos de software, de hardware e de rede críticos para o negócio 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não há evidências de controles específicos para privilégios administrativos, tais como 
+segregação de funções, autenticação multifator ou gerenciamento de acesso privilegiado. 
+Elemento faltante: evidência de controle de acesso privilegiado.  
+ 
+Item avaliado Q2504 - h) a organização limita e controla o uso de portas, protocolos e serviços de rede 
+nas conexões de sua rede interna com a internet e outras redes externas  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora a organização utilize firewalls, as evidências não demonstram o controle específico 
+de portas e protocolos de rede. Elemento faltante: políticas ou registros de controle de 
+portas e protocolos. 
+ 
+--- Page 48 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Item avaliado Q2504 - j) a organização implementa cópias regulares de segurança (backup) das 
+informações em meio digital, conforme as melhores práticas e as necessidades de negócio, 
+incluindo a realização periódica de testes de recuperação das informações  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não foram apresentadas evidências documentais de políticas, rotinas de execução ou 
+testes de recuperação de backup. Elemento faltante: evidência de rotinas de backup e 
+testes de restauração. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 49 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2601. A organização executa um processo de 
+software. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2601 - a) o processo de software utilizado pela organização promove a participação de 
+representante da área de negócio como integrante da equipe de desenvolvimento ou 
+aquisição de software, desde sua concepção até a aceitação final 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora a metodologia preveja a interação com o usuário em fases de levantamento de 
+requisitos e homologação, a evidência não demonstra a integração formal e contínua de 
+um representante da área de negócio na equipe de desenvolvimento durante todo o ciclo 
+de vida do software. A documentação apresentada não identifica nominalmente tais 
+representantes como integrantes da equipe, limitando-se a descrever interações pontuais 
+entre a área de TI e os demandantes. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 50 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2802. A organização executa processo de 
+planejamento anual das contratações. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2802 - a) a alta administração (ou conselho ou colegiado superior) aprova formalmente 
+o Plano de Contratações Anual (PCA) 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora o PCA tenha sido apresentado, não consta na documentação enviada qualquer 
+evidência de aprovação formal, tal como ato administrativo, resolução, portaria ou 
+assinatura por parte da alta administração ou colegiado superior competente.  
+ 
+Item avaliado Q2802 - c) na elaboração do PCA são considerados os demais instrumentos de 
+planejamento da organização 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  As justificativas setoriais listadas no documento indicam finalidades operacionais, mas não 
+demonstram, por meio de evidência, a integração do PCA com outros instrumentos de 
+planejamento institucional, como o Plano Plurianual (PPA), a Lei de Diretrizes 
+Orçamentárias (LDO) ou o Planejamento Estratégico. 
+ 
+Item avaliado Q2802 - d) o PCA fundamenta a proposta orçamentária da organização  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  O PCA apresenta valores totais e unitários estimados, contudo, não há elemento verificável 
+que demonstre a vinculação formal entre esses valores e a fundamentação da proposta 
+orçamentária anual do órgão. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 51 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 2803. A organização torna públicos os documentos 
+relacionados com cada contratação de tecnologia da 
+informação, contemplando as fases de planejamento, seleção 
+do fornecedor e gestão contratual, excepcionados os casos de 
+sigilo amparados pela legislação. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2803 - A organização torna públicos os documentos relacionados com cada contratação 
+de tecnologia da informação, contemplando as fases de planejamento, seleção do 
+fornecedor e gestão contratual, excepcionados os casos de sigilo amparados pela 
+legislação. 
+Resposta 
+informada pelo 
+auditado 
+Adota em maior parte ou totalmente. 
+Avaliação  A evidência apresentada é insuficiente para demonstrar a conformidade da organização. 
+O material consiste em capturas de tela do sistema de publicações que identificam 
+contratações vinculadas a outro órgão (Ministério da Economia), não havendo qualquer 
+registro das contratações de tecnologia da informação da Defensoria Pública do Estado. 
+Ausente a comprovação da publicidade das fases de planejamento, seleção e gestão 
+contratual relativas ao auditado. 
+ 
+Item avaliado Q2803 - a) o Estudo Técnico Preliminar (ETP) das contratações é publicado no Portal 
+Nacional de Compras Públicas (PNCP) 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não há demonstração de publicação de Estudo Técnico Preliminar da organização auditada 
+no PNCP. A evidência refere-se a listagens de contratos e empenhos de outro órgão, sendo 
+insuficiente para sustentar a afirmação. 
+ 
+Item avaliado Q2803 - b) o Termo de Referência (TR) ou projeto básico das contratações é publicado no 
+PNCP 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência apresentada não contempla o Termo de Referência ou projeto básico de 
+contratações da organização. O material restringe -se a dados de outro órgão, não 
+permitindo verificar a conformidade com o item. 
+ 
+Item avaliado Q2803 - c) o edital de credenciamento e de pré-qualificação, o aviso de contratação direta 
+e o edital de licitação e respectivos anexos são publicados no PNCP  
+--- Page 52 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não há registros de editais, avisos ou documentos correlatos da DPGE na evidência 
+apresentada. O conteúdo disponibilizado não possui elementos que comprovem a 
+publicação exigida para a organização. 
+ 
+Item avaliado Q2803 - d) a ata de registro de preços, a ata de julgamento, contendo propostas e lances 
+oferecidos (quando for o caso) são publicadas no PNCP 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  As atas mencionadas não foram apresentadas ou identificadas para a organização 
+auditada. A evidência refere -se exclusivamente a outro órgão, carecendo de valor 
+comprobatório para a DPGE. 
+ 
+Item avaliado Q2803 - e) o inteiro teor dos contratos, notas de empenho, aditivos e termos de 
+prorrogação de contratos são publicados no PNCP 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência exibida não demonstra a publicação do inteiro teor de contratos, aditivos ou 
+termos de prorrogação da DPGE. O documento limita-se a listagens operacionais de outro 
+órgão, impossibilitando a verificação. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 53 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão Caso tenha assinalado que as contratações de 
+soluções de TI são obrigatoriamente submetidas à análise 
+prévia e aprovação técnica da área de gestão de TI, forneça 
+evidência de norma regulamentando esse processo e de um 
+caso concreto. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q2804 - a) as contratações de soluções de TI, independentemente de qual seja a área 
+demandante, são obrigatoriamente submetidas à análise prévia e aprovação técnica da 
+área de gestão de TI 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora a evidência demonstre a participação da área de TI na elaboração do Estudo 
+Técnico Preliminar e do Termo de Referência para a contratação analisada, não há prova 
+da existência de norma interna que obrigue a submissão de todas as contratações de TI à  
+análise técnica prévia da unidade gestora de TI. A documentação apresentada refere -se 
+exclusivamente a este caso concreto, sem estabelecer o caráter universal e mandatório da 
+prática alegada. Faltam elementos comprobatórios, como o texto integral de norma tivos 
+internos, que sustentem a obrigatoriedade da atuação técnica da área de TI em âmbito 
+institucional para todas as contratações do gênero. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 54 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 3001. A organização utiliza inteligência artificial de 
+forma institucional em suas operações. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q3001 - b) a organização executa projetos-piloto ou provas de conceito (POC) envolvendo 
+inteligência artificial 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não há evidências documentais ou registros que comprovem a realização de etapas de 
+projetos-piloto ou provas de conceito para as soluções apresentadas. A evidência 
+restringiu-se a demonstrar o estágio de produção das ferramentas. Falta a apresentação 
+de documentos de planejamento, relatórios de testes ou termos de início de projeto que 
+caracterizem a experimentação. 
+ 
+Item avaliado Q3001 - c) a organização desenvolve internamente soluções de inteligência artificial para 
+suportar suas necessidades institucionais 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  As imagens fornecidas atestam o uso das ferramentas, mas não contêm elementos que 
+comprovem que o desenvolvimento ocorreu internamente. É necessária a apresentação 
+de documentação técnica, registros de repositórios ou contratos que evidenciem a autoria 
+ou o desenvolvimento pela própria equipe da instituição. Sem esses registros, não é 
+possível confirmar o desenvolvimento interno. 
+ 
+Item avaliado Q3001 - d) soluções de inteligência artificial já operam em produção apoiando processos 
+administrativos internos 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Embora a evidência mostre o sistema MinutaIA, não há descrição ou documentação que 
+confirme sua aplicação estrita em processos administrativos internos. As imagens 
+apresentam o sistema de forma genérica em ambiente institucional sem detalhar os fluxos 
+de t rabalho suportados. Faltam evidências adicionais que vinculem a ferramenta aos 
+processos administrativos específicos da organização. 
+ 
+Item avaliado Q3001 - f) a organização designou formalmente uma equipe, comitê ou responsáveis 
+técnicos pelas iniciativas e projetos de inteligência artificial 
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  Não foram apresentadas evidências documentais como atos normativos, portarias ou 
+organogramas que comprovem a existência de uma estrutura formal de governança ou a 
+designação de responsáveis por iniciativas de inteligência artificial. A ausência de um 
+documento de designação formal impede a conformidade deste item. 
+--- Page 55 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+  
+--- Page 56 ---
+ 
+ 
+ 
+ 
+ 
+TRIBUNAL DE CONTAS DO ESTADO DO RIO DE JANEIRO 
+SECRETARIA-GERAL DE CONTROLE EXTERNO – SGE 
+SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA  
+COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO 
+Questão 3003. A organização já realizou contratação de 
+soluções ou serviços que utilizam inteligência artificial. 
+Itens avaliados como não conformes nesta questão: 
+ 
+Item avaliado Q3003 - b) a organização contratou soluções de inteligência artificial generativa (ex.: 
+ChatGPT, Gemini, Claude, Copilot ou ferramentas equivalentes)  
+Resposta 
+informada pelo 
+auditado 
+Sim 
+Avaliação  A evidência documental comprova a contratação de uma suíte de colaboração e 
+produtividade (Google Workspace) com serviços de migração, treinamento e 
+customização, mas não contempla a contratação de inteligência artificial generativa. Os 
+documentos contratuais, incluindo o termo aditivo e o termo de apostilamento, descrevem 
+estritamente ferramentas de e -mail, drive, chat e videoconferência. Não foram 
+identificados elementos, cláusulas ou especificações técnicas que fundamentem a 
+aquisição ou utilização de soluções de IA generativa como objeto da contratação. 
+ 
+Caso deseje, apresente comentários, esclarecimentos ou retificações sobre a avaliação de 
+evidências desta questão. 
+ 
+ 
+ 
+Caso deseje, envie uma evidência suplementar para reavaliação. 
+ Apenas um arquivo PDF ou ZIP 
+ 
+ 
+ 
+ 

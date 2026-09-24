@@ -1,0 +1,10 @@
+﻿ID_SEI,Chave,Documento,Tipo,Similaridade_TFIDF,Similaridade_Densa_Global,Sim_Objeto,Sim_Tecnica_SDWAN,Sim_Contratual,Sim_SLA_Glosas,Score_Aderencia_Ponderado,Top_Termos
+2219741,PREGAO_MPRJ,Pregão 90020/2024 MPRJ (2219741),Contratação Pública (RJ),0.4605,0.4654,0.5304,0.7163,0.5255,0.6528,0.6097,"['rj cep', 'ministério público', 'público estado', 'fórum', '2024 ministério', 'ministério']"
+2219730,PREGAO_DTI_PF,Pregão 90009/2025 DTI / Polícia Federal (2219730),Contratação Pública (Federal),0.0858,0.6485,0.7199,0.697,0.4318,0.4194,0.5953,"['posto', 'aeroporto', '200 mbps', '471', '420', '787']"
+2219745,CD_FUPESC,Proposta CD 75/2025 FUPESC (2219745),Contratação Pública (SC),0.3797,0.5745,0.6119,0.6196,0.5702,0.5318,0.5898,"['santa catarina', 'catarina', 'cd', 'secretaria estado', 'março 2026', 'provedor']"
+2219727,PREGAO_GO,Pregão 107458/2025 Sec. Geral Governadoria - GO (2219727),Contratação Pública (GO),0.4647,0.5973,0.5915,0.688,0.3235,0.5886,0.5663,"['secretaria geral', 'php', 'wan velocidade', 'secretaria', 'go', 'deve']"
+2219742,CONTRATO_MTE,Contrato 18/2024 MTE / Telebras (2219742),Contratação Pública (Federal),0.4531,0.5686,0.6212,0.642,0.3222,0.5091,0.5452,"['emprego', '2024 ministério', '18 2024', 'ministério', '50mbps', '2024']"
+2219747,PREGAO_TJMRS,Pregão 2/2026 Justiça Militar - TJMRS (2219747),Contratação Pública (RS),0.3909,0.4547,0.4542,0.6893,0.4833,0.471,0.5339,"['2026 14', 'aberta', 'informatica', 'sul rs', 'telecomunicações ltda', '00 25']"
+2219728,PREGAO_MPES,Pregão 90037/2025 MPES (2219728),Contratação Pública (ES),0.0653,0.688,0.6059,0.6558,0.4574,0.2642,0.5228,"['ministério público', 'público estado', 'santo', 'ministério', 'pregão', 'proposta pregão']"
+2219726,GSNT,Proposta GSNT Telecom (2219726),Cotação de Mercado,0.1706,0.5001,0.4014,0.6086,0.3401,0.4532,0.4617,"['telecomunicações ltda', 'botelho', 'ana', 'simétrico sd', 'pesquisa mercado', 'def br']"
+2219752,OI_ATUAL,Proposta Oi - Valor Atual Contratado DPRJ (2219752),Contrato Vigente (DPRJ),0.0596,0.4354,0.4398,0.4259,0.3574,0.3629,0.4038,"['oi', '138', '658', 'unid', 'comunicacao', 'simétrico sd']"

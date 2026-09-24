@@ -1,0 +1,32 @@
+{
+  "target_despacho": 2223276,
+  "top_reasons": [
+    [
+      0.6321167945861816,
+      "Prerrogativa facultativa e opcional do gestor: o Termo TSID nº 03 do TCE-RJ e o Manual de Auditoria estabelecem expressamente que a apresentação de Comentários do Gestor é prerrogativa opcional, sem caráter vinculante ou de obrigatoriedade sancionatória."
+    ],
+    [
+      0.4678956866264343,
+      "Concordância com o diagnóstico técnico: a Administração e a DGI acolhem o diagnóstico do Relatório Preliminar (iGovTI 2026 de 0,5223) como oportunidade de melhoria contínua, inexistindo divergências de fato ou erros materiais que justificassem impugnação."
+    ],
+    [
+      0.4611876606941223,
+      "Instrução probatória e fática prévia exaustiva: todos os elementos de fato, questionários e evidências documentais já haviam sido amplamente fornecidos na fase instrutória pelo Despacho DGI 2106960/2106972 e pela EPD."
+    ],
+    [
+      0.43466871976852417,
+      "Direcionamento prioritário para o Plano de Ação: os esforços técnicos e gerenciais foram concentrados na estruturação prática das ações e planos de trabalho para implementação das recomendações do TCE-RJ quando da emissão do Relatório Definitivo."
+    ],
+    [
+      0.3492201566696167,
+      "Competência e escopo institucional: conforme sinalizado pela EPD e DGI, os achados envolvem governança ampla e governança preparatória de TIC, exigindo articulação institucional colegiada em vez de mera justificativa fática isolada."
+    ]
+  ],
+  "achados_relevance": {
+    "Achado 2": 0.4936278462409973,
+    "Achado 3": 0.4071355164051056,
+    "Achado 4": 0.41417765617370605,
+    "Achado 5": 0.407784640789032,
+    "Achado 6": 0.510441780090332
+  }
+}
